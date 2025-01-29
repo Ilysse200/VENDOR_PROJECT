@@ -1,5 +1,14 @@
 import React from 'react'
 import '../styles/footer.css';
+// import {faFacebook} from '@fortawesome/free-solid-svg-icons';
+// import {faTwitter} from '@fortawesome/free-solid-svg-icons';
+// import {faLinkedin} from '@fortawesome/free-solid-svg-icons';
+// import {faInstagram} from '@fortawesome/free-solid-svg-icons';
+
+import { CiFacebook } from "react-icons/ci";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { CiLinkedin } from "react-icons/ci";
 
 export default function 
 () {
@@ -49,11 +58,19 @@ export default function
         </div>
         <div className='last-content'>
             <div className='address-content'>
+                <p>Happy to help</p>
                 <ul>
                     <li>1279 Thorn Street, NY</li>
                     <li>Phone: 307-549-2480</li>
                     <li>Mail: demo@gmail.com</li>
                 </ul>
+            </div>
+            <div className='footer-icons'>
+              <CiFacebook size='45px'/>
+              <FaXTwitter size='45px'/>
+              <FaInstagram size='45px'/>
+              <CiLinkedin size='45px'/>
+
             </div>
         </div>
     </div>

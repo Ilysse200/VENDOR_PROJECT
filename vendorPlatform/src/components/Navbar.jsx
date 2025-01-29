@@ -20,7 +20,10 @@ export default function
         <Link to ='/content'>
         <li>Home</li>
         </Link>
+        <Link to='/cards'>
         <li>Shop</li>
+        </Link>
+        
         <li>Vendors</li>
         <li>Blog</li>
         <li>Contact</li>

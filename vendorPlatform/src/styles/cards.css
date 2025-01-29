@@ -1,0 +1,35 @@
+.holder2{
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap;  Allows responsiveness if needed  */
+        justify-content: space-between; /* Centers items in the row */
+        gap: 20px; /* Adds spacing between cards */
+}
+
+.image-viewer{
+    /* margin-left: 50px; 
+    display: inline-flex;
+    /* flex-direction: row; */
+}  
+
+.card-content{
+    padding-top: 10px;
+} */
+/* Each card should be displayed in a row */
+.card-holder {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; /* Centers content inside each card */
+    width: 200px; /* Set a fixed width for each card */
+    border: 1px solid #ddd; /* Optional: Adds a border to each card */
+    padding: 10px;
+    text-align: center;
+}
+.card-holder p{
+    text-align: center;
+} 
+
+ /* .image-viewer{
+    display: flex;
+    flex-direction: row;
+ }*/
