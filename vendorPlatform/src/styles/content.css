@@ -1,0 +1,24 @@
+/* .gallery-item{
+    tex
+} */
+
+.gallery-container{
+    margin-right: 24px;
+    margin-left: 37px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6px;
+    text-align: center;
+    font-size: 23px;
+}
+h1{
+    margin-left: 44px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.gallery-image{
+    justify-content: space-between;
+    gap:0px
+}

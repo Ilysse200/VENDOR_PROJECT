@@ -1,0 +1,87 @@
+.footer-align{
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+    padding-left:20px ;
+    width: 100%;
+    /* margin-left: 20px; */
+}
+.words-content h3{
+    padding-top: 50px;
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+.input-element{
+    outline: none;
+    padding:5px;
+    width:47%;
+    border-bottom: 1px solid grey;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+.words-content p{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.right-content{
+    width:20%;
+    padding-bottom:0px ;
+    text-align: right;
+    /* margin-right: 200px; */
+    text-transform: capitalize;
+
+}
+.left-content{
+    margin-top: 60px;
+
+}
+.item-styling h4{
+    font-size: 26px;
+    margin-left: 13px;
+}
+.item-styling ul{
+    padding-bottom: 10px;
+}
+.item-styling li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 22px;
+    /* padding-bottom: 30px; */
+}
+.footer-secondList li{
+    padding-top: 20px;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 22px;
+}
+.footer-header-list{
+    padding-top: 40px;
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+.footer-header-list ul{
+    padding-top: 5%;
+    text-align: left;
+}
+.footer-thirdList h4{
+    padding-top: 10px;
+    font-size: 26px;
+    /* list-style-type: none;
+    padding: 10px;
+    font-size: 22px; */
+}
+.footer-thirdList li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 22px;
+}
+.footer-secondList h4{
+    font-size: 26px;
+}

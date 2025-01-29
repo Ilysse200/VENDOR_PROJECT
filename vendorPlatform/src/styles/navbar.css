@@ -1,0 +1,121 @@
+.container {
+    margin-top: 80px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    display: flex;
+    flex-direction: row; /* No need for inline-flex */
+    align-items: center; /* Ensures elements align properly */
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    width: 100%;
+    /* margin:0; */
+    padding-left: 0;
+    margin-left: 0;
+    font-weight: bold;
+}
+.heading {
+    font-size: 25px;
+    color: white;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove extra spacing */
+    padding-left: 25px;
+}
+.listing{
+    font-size: 25px;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    /* align-items: center; */
+    margin-right:100px;
+    margin-left: 200px;
+    padding-bottom: -2px;
+    left:0;
+}
+.listing li{
+    padding: 8px 15px;
+    /* align-items: center; */
+    margin-right: 30px;
+}
+.search{
+    left: auto;
+    display: flex;
+    /* flex-direction: row; */
+    line-height: 0;
+    flex-direction: row-reverse;
+    justify-items: space-between;
+    gap: 10px;
+    margin-right: 60px;
+    font-size: 24px;
+}
+.phone-icon{
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 0;
+}
+.search p{
+    padding-top: 12px;
+    /* margin-right:12px */
+}
+/*.search 
+ .search p{
+     font-size: 24px;
+     /* font-weight: bold; */
+     /* padding-right: 55px;
+     margin-right: 100px; 
+} */
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    gap:70px;
+    width:100%;
+    height: 55px;
+    align-items: center;
+    margin-top: 30px;
+    /* padding-right: 20px; */
+}
+.header-container h1{
+    font-size: 45px;
+    margin-left: 45px;
+    margin-top: 10px;
+    align-items: center;
+    margin-right: 300px;
+}
+/* .header-container button{
+    justify-items: space-between;
+    gap: 2px;
+
+} */
+.categoriesButton{
+    /* flex: 1; */
+    padding-right:10px;
+    padding-top: 0;
+    /* width: 80px; */
+    /* width: auto;
+    height: auto; */
+    width: 200px;
+    height:60px;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 132, 255);
+    margin-top: 23px;
+    
+}
+.searchButton{
+    text-align: left;
+    width:500px;
+    height:75px;
+    border: 1px solid rgb(0, 132, 255);
+    border-radius: 8px;
+    font-size: 20px;
+    color:rgb(195, 202, 202);
+    /* font-weight: lighter; */
+    margin-top: 27px;
+    padding-left: 14px;
+    /* margin-right: 100px; */
+    /* width:auto;
+    height: auto; */
+}
+
+
+
