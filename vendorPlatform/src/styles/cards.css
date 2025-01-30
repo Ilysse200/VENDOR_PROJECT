@@ -1,15 +1,31 @@
 .holder2{
+    /* justify-content: left; */
         display: flex;
-        flex-direction: row;
-        /* flex-wrap: wrap;  Allows responsiveness if needed  */
-        justify-content: space-between; /* Centers items in the row */
-        gap: 20px; /* Adds spacing between cards */
+        padding-left: 15px;
+        font-size: 25px;
+        padding-bottom: 25px;
+        padding-top: 30px;
+        /* flex: 1; */
+        /* flex-direction: row; */
+        /* flex-wrap: wrap;  Allows responsiveness if needed  
+        justify-content: space-between; /* Centers items in the row 
+        gap: 2px;  Adds spacing between cards 
+        margin:0;*/
+}
+.holder2 h1{
+    text-align: start;
+
 }
 
 .image-viewer{
     /* margin-left: 50px; 
     display: inline-flex;
     /* flex-direction: row; */
+    justify-content: space-between;
+    gap:0px;
+    padding-right: 20px;
+    height: 550px;
+    width: 550px;
 }  
 
 .card-content{
@@ -18,11 +34,12 @@
 /* Each card should be displayed in a row */
 .card-holder {
     display: flex;
-    flex-direction: row; 
+    padding-left: 20px;
+    /* flex-direction: row;  */
     align-items: center; /* Centers content inside each card */
-    width: 200px; /* Set a fixed width for each card */
+    width: 30px; /* Set a fixed width for each card */
     border: 1px solid #ddd; /* Optional: Adds a border to each card */
-    padding: 10px;
+    padding: 3px;
     text-align: center;
 }
 .card-holder p{
@@ -33,3 +50,10 @@
     display: flex;
     flex-direction: row;
  }*/
+ /* .star-icons{
+    list-style-type: none;
+    display: flex;
+ } */
+ .card-holder li{
+    list-style-type: none;
+ }

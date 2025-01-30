@@ -9,6 +9,10 @@ import { CiFacebook } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
+import imagesFooter from '../assets/images.webp';
+// const imagesFooter=[
+//     {}
+// ]
 
 export default function 
 () {
@@ -54,9 +58,6 @@ export default function
                     <li>Contact</li>
                 </ul>
             </div>
-            
-        </div>
-        <div className='last-content'>
             <div className='address-content'>
                 <p>Happy to help</p>
                 <ul>
@@ -65,11 +66,21 @@ export default function
                     <li>Mail: demo@gmail.com</li>
                 </ul>
             </div>
+            
+        </div>
+        <div className='last-content'>
+            
             <div className='footer-icons'>
-              <CiFacebook size='45px'/>
-              <FaXTwitter size='45px'/>
-              <FaInstagram size='45px'/>
-              <CiLinkedin size='45px'/>
+                <div className='socialMedia-icons'>
+                    <CiFacebook size='45px'/>
+                    <FaXTwitter size='45px'/>
+                    <FaInstagram size='45px'/>
+                    <CiLinkedin size='45px'/>
+                </div>
+              <div className='images-content'>
+                <p>ACCEPT FOR</p>
+                    <img src={imagesFooter} alt='footer-icons' className='footer-images'/>
+              </div>
 
             </div>
         </div>
