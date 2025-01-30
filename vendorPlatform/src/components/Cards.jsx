@@ -33,6 +33,20 @@ const Cards=()=>{
             // colors: ["#C2B9A3", "#8B6C50", "#EAEAEA", "#FFFFFF"] // Colors as HEX
         }
     ]
+    const starArray=[
+        {
+            name:'icon1',
+            colors:[<FaStar color='orange'/>,<FaStar color='orange'/>,<FaStar color='orange'/>,<FaStar color='orange'/>,<FaStar color='orange'/>]
+        },
+        {
+            name:'icon2', color:<FaStar color='orange'/>,
+            colors:[<FaStar color='orange'/>,<FaStar color='orange'/>,<FaStar color='orange'/>,<FaStar color='orange'/>,<FaStar color='grey'/>]
+        },
+        {
+            name:'icon1', color:<FaStar color='orange'/>,
+            colors:[<FaStar color='orange'/>,<FaStar color='orange'/>,<FaStar color='orange'/>,<FaStar color='grey'/>,<FaStar color='grey'/>]
+        }
+    ]
     return (
 
             
@@ -56,6 +70,49 @@ const Cards=()=>{
                     )
                 )
             }
+            </div>
+            <div className='side-content'>
+                <p>Categories</p>
+                <ul>
+                    <li>Body Lotion(1)</li>
+                    <li>Computer Gadget(3)</li>
+                    <li>Electronics(5)</li>
+                    <li>Fashion(3)</li>
+                    <li>General(1)</li>
+                    <li>Shoes(2)</li>
+                    <li>Sports(3)</li>
+                    <li>Watch(1)</li>
+                    <li>Woman Clothes(3)</li>
+                </ul>
+                <p>Color</p>
+                <div class="color-options">
+                    <div class="color-circle">
+                        <div class="color-inner color1">
+                        </div>
+                    </div>
+                    <div class="color-circle selected">
+                        <div class="color-inner color2"></div>
+                    </div>
+                    <div class="color-circle">
+                        <div class="color-inner color3"></div>
+                    </div>
+                    <div class="color-circle">
+                        <div class="color-inner color4"></div>
+                    </div>
+                </div>
+                <p>Ratings</p>
+                <div className='star-propery'>
+                    {
+                        starArray.map((star1) =>(
+                            <div key={star1.name} className='star-styling'>
+                                <div>{star1.colors}</div>
+
+                            </div>
+
+                        ))
+                    }
+                </div>
+
             </div>
             </div>
        

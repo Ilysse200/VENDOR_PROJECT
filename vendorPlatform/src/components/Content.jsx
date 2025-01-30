@@ -13,8 +13,8 @@ import product10 from '../assets/product-category-10.jpg.webp';
 
 import image3 from '../assets/product-wireless-headset-420x420.jpg (1).webp';
 import image1 from '../assets/product-water-bottle-420x420.jpg.webp';
-import image2 from '../assets/alexa.webp'
 
+import image2 from '../assets/alexa.webp'
 
 //  Use imported images in the array
 const categories = [
