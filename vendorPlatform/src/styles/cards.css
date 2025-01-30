@@ -1,12 +1,14 @@
 .holder2{
     /* justify-content: left; */
         display: flex;
-        padding-left: 15px;
+        padding-right: 15px;
         font-size: 25px;
         padding-bottom: 25px;
         padding-top: 30px;
-        width: 100%;
+        width: 60%;
         margin:0;
+        flex-wrap: wrap;
+        /* grid-template-columns: repeat(3, 1fr); */
         /* flex: 1; */
         /* flex-direction: row; */
         /* flex-wrap: wrap;  Allows responsiveness if needed  
@@ -25,9 +27,9 @@
     /* flex-direction: row; */
     justify-content: space-between;
     gap:0px;
-    padding-right: 20px;
-    height: 550px;
-    width: 600px;
+    padding-right: 50px;
+    height: 300px;
+    width: 340px;
     margin-right: 0%;
 }  
 
@@ -37,16 +39,18 @@
 /* Each card should be displayed in a row */
 .card-holder {
     display: flex;
-    padding-left: 20px;
+    padding-left: 25px;
     /* flex-direction: row;  */
     align-items: center; /* Centers content inside each card */
-    width: 30px; /* Set a fixed width for each card */
+    width: 5px; /* Set a fixed width for each card */
     border: 1px solid #ddd; /* Optional: Adds a border to each card */
     padding: 3px;
-    text-align: center;
+    text-align: left;
 }
 .card-holder p{
-    text-align: center;
+    text-align: left;
+    padding-bottom: 15px;
+    font-weight: 660px;
 } 
 
  /* .image-viewer{
@@ -126,11 +130,13 @@ body{
     margin-left: 70px;
     display: flex;
     flex-direction: column;
+    width: 40%;
 
 }
 .side-content p{
     font-size: 22px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
+    margin-top: 40px;
     font-weight: 600;
 }
 .side-content ul{
@@ -144,5 +150,8 @@ body{
 .side-content li{
     font-size: 20px;
     padding-bottom: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 35px;}
+.products{
+    display: flex;
+    flex-direction: row-reverse;
 }

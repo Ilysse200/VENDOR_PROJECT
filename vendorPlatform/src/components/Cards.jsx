@@ -1,11 +1,15 @@
 import React from 'react';
-import lotion from '../assets/lotion.webp'
+import lotion from '../assets/product-water-bottle-420x420.jpg.webp'
 import '../styles/cards.css'
 import mouse from '../assets/product-category-3.jpg.webp'
 import { CiStar } from "react-icons/ci";
 import pods from '../assets/product-category-8-1.jpg.webp'
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 import mainImage from '../assets/ShopPicture.webp';
+import blackMouse from '../assets/blackMouse.webp';
+import shoes from '../assets/shoes.webp';
+import beautyProducts from '../assets/oLiveoIL.webp';
+import watch from '../assets/product-watch-2-420x420.jpg.webp'
 const Cards=()=>{
     const cards=[
         {
@@ -19,7 +23,7 @@ const Cards=()=>{
         {
             image:pods,
             cardTitle:'AirPods',
-            cardContent:'This our new bluetooth listener',
+            cardContent:'Version bluetooth',
             price: "$22.00 – $55.00",
             rating: [<FaStar color="orange" />, <FaStar color="orange" />, <FaStarHalfAlt color="orange" />, <FaRegStar color="gray" />, <FaRegStar color="gray" />], // 3.5-star rating
             // colors: ["#C2B9A3", "#8B6C50", "#EAEAEA", "#FFFFFF"] // Colors as HEX
@@ -27,7 +31,55 @@ const Cards=()=>{
         {
             image:mouse,
             cardTitle:'late version Cambot',
-            cardContent:'This our new tech equipment',
+            cardContent:'New tech equipment',
+            price: "$22.00 – $55.00",
+            rating: [<FaStar color="orange" />, <FaStar color="orange" />, <FaStarHalfAlt color="orange" />, <FaRegStar color="gray" />, <FaRegStar color="gray" />], // 3.5-star rating
+            // colors: ["#C2B9A3", "#8B6C50", "#EAEAEA", "#FFFFFF"] // Colors as HEX
+        },
+        {
+            image:watch,
+            cardTitle:'late version watch',
+            cardContent:'JDoes Styling Watch',
+            price: "$22.00 – $55.00",
+            rating: [<FaStar color="orange" />, <FaStar color="orange" />, <FaStarHalfAlt color="orange" />, <FaRegStar color="gray" />, <FaRegStar color="gray" />], // 3.5-star rating
+            // colors: ["#C2B9A3", "#8B6C50", "#EAEAEA", "#FFFFFF"] // Colors as HEX
+        },
+        {
+            image:mouse,
+            cardTitle:'late version Cambot',
+            cardContent:'New tech equipment',
+            price: "$22.00 – $55.00",
+            rating: [<FaStar color="orange" />, <FaStar color="orange" />, <FaStarHalfAlt color="orange" />, <FaRegStar color="gray" />, <FaRegStar color="gray" />], // 3.5-star rating
+            // colors: ["#C2B9A3", "#8B6C50", "#EAEAEA", "#FFFFFF"] // Colors as HEX
+        },
+        {
+            image:mouse,
+            cardTitle:'late version Cambot',
+            cardContent:'New tech equipment',
+            price: "$22.00 – $55.00",
+            rating: [<FaStar color="orange" />, <FaStar color="orange" />, <FaStarHalfAlt color="orange" />, <FaRegStar color="gray" />, <FaRegStar color="gray" />], // 3.5-star rating
+            // colors: ["#C2B9A3", "#8B6C50", "#EAEAEA", "#FFFFFF"] // Colors as HEX
+        },
+        {
+            image:beautyProducts,
+            cardTitle:'beauty products',
+            cardContent:'Skin accessories',
+            price: "$22.00 – $55.00",
+            rating: [<FaStar color="orange" />, <FaStar color="orange" />, <FaStarHalfAlt color="orange" />, <FaRegStar color="gray" />, <FaRegStar color="gray" />], // 3.5-star rating
+            // colors: ["#C2B9A3", "#8B6C50", "#EAEAEA", "#FFFFFF"] // Colors as HEX
+        },
+        {
+            image:blackMouse,
+            cardTitle:'Tech equipment',
+            cardContent:'computer equipment',
+            price: "$22.00 – $55.00",
+            rating: [<FaStar color="orange" />, <FaStar color="orange" />, <FaStarHalfAlt color="orange" />, <FaRegStar color="gray" />, <FaRegStar color="gray" />], // 3.5-star rating
+            // colors: ["#C2B9A3", "#8B6C50", "#EAEAEA", "#FFFFFF"] // Colors as HEX
+        },
+        {
+            image:shoes,
+            cardTitle:'Outfit',
+            cardContent:'White shoes',
             price: "$22.00 – $55.00",
             rating: [<FaStar color="orange" />, <FaStar color="orange" />, <FaStarHalfAlt color="orange" />, <FaRegStar color="gray" />, <FaRegStar color="gray" />], // 3.5-star rating
             // colors: ["#C2B9A3", "#8B6C50", "#EAEAEA", "#FFFFFF"] // Colors as HEX
@@ -52,12 +104,15 @@ const Cards=()=>{
             
             <div >
                 <div className='positioningImage'>
-                <img src={mainImage} alt='Shop Image' className='shop-image'/>
-                <p>Shop</p>
+                    <img src={mainImage} alt='Shop Image' className='shop-image'/>
+                    <p>Shop</p>
                 </div>
+                <div className='products'>
+
+                {/* Images cards content*/}
                 <div className='holder2'>
-            { 
-                cards.map((cards)=>(//index is automatically provided
+                    { 
+                    cards.map((cards)=>(//index is automatically provided
                     <div className='card-holder'>
                         <img src={cards.image} alt='the image of the card' className='image-viewer'/>
                         <p>{cards.cardTitle}</p>
@@ -67,10 +122,10 @@ const Cards=()=>{
                         {/* <p>{cards.colors}</p> */}
                         {/* <div className='content-card'>{cards.cardContent}</div> */}
                     </div>
-                    )
-                )
-            }
-            </div>
+                        )
+                        )
+                    }
+                </div>
             <div className='side-content'>
                 <p>Categories</p>
                 <ul>
@@ -115,6 +170,7 @@ const Cards=()=>{
 
             </div>
             </div>
+        </div>
        
     
     
