@@ -5,7 +5,7 @@ import mouse from '../assets/product-category-3.jpg.webp'
 import { CiStar } from "react-icons/ci";
 import pods from '../assets/product-category-8-1.jpg.webp'
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
-
+import mainImage from '../assets/ShopPicture.webp';
 const Cards=()=>{
     const cards=[
         {
@@ -36,9 +36,13 @@ const Cards=()=>{
     return (
 
             
-            <div className='holder2'>
-            {
-                
+            <div >
+                <div className='positioningImage'>
+                <img src={mainImage} alt='Shop Image' className='shop-image'/>
+                <p>Shop</p>
+                </div>
+                <div className='holder2'>
+            { 
                 cards.map((cards)=>(//index is automatically provided
                     <div className='card-holder'>
                         <img src={cards.image} alt='the image of the card' className='image-viewer'/>
@@ -52,6 +56,7 @@ const Cards=()=>{
                     )
                 )
             }
+            </div>
             </div>
        
     

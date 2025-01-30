@@ -14,7 +14,8 @@ import product10 from '../assets/product-category-10.jpg.webp';
 import image3 from '../assets/product-wireless-headset-420x420.jpg (1).webp';
 import image1 from '../assets/product-water-bottle-420x420.jpg.webp';
 import image2 from '../assets/alexa.webp'
-import mainImage from '../asset/ShopPicture.webp';
+
+
 //  Use imported images in the array
 const categories = [
     { id: 1, name: "Body Lotion", image: lotion },
@@ -55,10 +56,7 @@ export default function Content() {
   return (
     <div>
         <h1>Popular Categories</h1>
-        <div className='shop-image'>
-            <img src={mainImage} alt='Shop Image'/>
-
-        </div>
+        
         <div className="gallery-container">
             {categories.map((item) => (
                 <div key={item.id} className="gallery-item">

@@ -5,6 +5,8 @@
         font-size: 25px;
         padding-bottom: 25px;
         padding-top: 30px;
+        width: 100%;
+        margin:0;
         /* flex: 1; */
         /* flex-direction: row; */
         /* flex-wrap: wrap;  Allows responsiveness if needed  
@@ -25,7 +27,8 @@
     gap:0px;
     padding-right: 20px;
     height: 550px;
-    width: 550px;
+    width: 600px;
+    margin-right: 0%;
 }  
 
 .card-content{
@@ -57,3 +60,12 @@
  .card-holder li{
     list-style-type: none;
  }
+
+.shop-image{
+    width: 100%;
+    height: 480px;
+}
+.positioningImage{
+    position: re;
+    
+}
