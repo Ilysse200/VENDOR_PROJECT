@@ -93,7 +93,10 @@ body{
     display: flex;
     gap: 10px;
     border-bottom:1px solid #ccc;
-    margin-bottom: 40px;
+    /* margin-bottom: 30px; */
+    padding-bottom: 40px;
+    padding-top: 0%;
+    width: 370px;
 }
 
 .color-circle {
@@ -126,23 +129,26 @@ body{
 /*content at the left side*/
 .side-content{
     justify-content: space-between;
-    gap: 2px;
+    gap: 1px;
     margin-left: 70px;
     display: flex;
     flex-direction: column;
     width: 40%;
+    padding: 0%;
+    height: 56%;
 
 }
 .side-content p{
     font-size: 22px;
-    padding-bottom: 15px;
-    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    margin-top: 10px;
     font-weight: 600;
 }
 .side-content ul{
     list-style-type: none;
     border-bottom:1px solid #ccc;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     width: 370px;
     /* outline: none; */
 
@@ -150,7 +156,13 @@ body{
 .side-content li{
     font-size: 20px;
     padding-bottom: 10px;
-    margin-bottom: 35px;}
+    margin-bottom: 35px;
+}
+.property-stars{
+    justify-content: space-between;
+    gap: 5px;
+    padding-right: 10px;
+}
 .products{
     display: flex;
     flex-direction: row-reverse;

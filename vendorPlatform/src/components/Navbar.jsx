@@ -23,8 +23,11 @@ export default function
         <Link to='/cards'>
         <li>Shop</li>
         </Link>
-        
+
+        <Link to='/vendor'>
         <li>Vendors</li>
+        </Link>
+        
         <li>Blog</li>
         <li>Contact</li>
         </ul>

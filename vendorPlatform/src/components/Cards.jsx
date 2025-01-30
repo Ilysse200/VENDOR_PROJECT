@@ -160,7 +160,7 @@ const Cards=()=>{
                     {
                         starArray.map((star1) =>(
                             <div key={star1.name} className='star-styling'>
-                                <div>{star1.colors}</div>
+                                <div className='property-stars'>{star1.colors}</div>
 
                             </div>
 
