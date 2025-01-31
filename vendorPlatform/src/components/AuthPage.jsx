@@ -47,7 +47,7 @@ const AuthPage = () => {
             />
             <label htmlFor="customer">I am a customer</label>
 
-            <input 
+            <input
               type="radio" 
               id="vendor" 
               name="role" 
