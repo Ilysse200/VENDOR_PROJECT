@@ -6,6 +6,7 @@ import Page from './components/Page';
 import Content from './components/Content';
 import Cards from './components/Cards';
 import Vendor from './components/Vendor';
+import AuthPage from './components/AuthPage';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -20,6 +21,7 @@ function App() {
       {/* <Route path='/navbar' element={<Navbar/>}/> */}
 
       </Route>
+      <Route path='/auth'  element={<AuthPage/>}/>
     </Routes>
     </BrowserRouter>
   )
