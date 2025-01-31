@@ -37,6 +37,9 @@ const AuthPage = () => {
           <p>A link to set a new password will be sent to your email address.</p>
 
           <div className="role-selection">
+
+            {/*This content is the radio button with the customer option */}
+            <div className="customerChoice">
             <input 
               type="radio" 
               id="customer" 
@@ -46,7 +49,10 @@ const AuthPage = () => {
               onChange={() => setRole("customer")}
             />
             <label htmlFor="customer">I am a customer</label>
+            </div>
 
+            {/*This content is the radio button with the vendor option */}
+            <div className="vendorChoice">
             <input
               type="radio" 
               id="vendor" 
@@ -56,6 +62,7 @@ const AuthPage = () => {
               onChange={() => setRole("vendor")}
             />
             <label htmlFor="vendor">I am a vendor</label>
+            </div>
           </div>
 
           <button type="submit" className="auth-button">REGISTER</button>
