@@ -19,9 +19,9 @@ function App() {
       <Route path='/cards'  element={<Cards/>}/>
       <Route path='/vendor'  element={<Vendor/>}/>
       {/* <Route path='/navbar' element={<Navbar/>}/> */}
-
-      </Route>
       <Route path='/auth'  element={<AuthPage/>}/>
+      </Route>
+      
     </Routes>
     </BrowserRouter>
   )

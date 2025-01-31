@@ -73,3 +73,65 @@ h1{
     margin-top: 30px;
     background-color: lightgray;
 }
+/* ============================= */
+/*        RESPONSIVE DESIGN      */
+/* ============================= */
+
+/* Tablet Screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .gallery-container {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .productImage {
+        width: 400px;
+        height: 400px;
+    }
+
+    .productTitle {
+        font-size: 35px;
+    }
+
+    .shop-Button {
+        width: 130px;
+        height: 55px;
+        font-size: 18px;
+    }
+}
+
+/* Mobile Screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .gallery-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .productImage {
+        width: 100%;
+        height: auto;
+    }
+
+    .productTitle {
+        font-size: 28px;
+    }
+
+    .productsClass {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .shop-Button {
+        width: 120px;
+        height: 50px;
+        font-size: 16px;
+    }
+}

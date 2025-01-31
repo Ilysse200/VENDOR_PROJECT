@@ -304,3 +304,115 @@
     width: 220px;
     margin-bottom: 75px;
 }
+/* ============================= */
+/*        RESPONSIVE DESIGN      */
+/* ============================= */
+
+/* Tablet Screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .footer-align {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .footer-header-list {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-header-list ul {
+        padding-right: 0;
+    }
+
+    .footer-icons {
+        margin-left: 0;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .socialMedia-icons {
+        justify-content: center;
+        margin-right: 0;
+        width:160px;
+        height: 45px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .images-content {
+        padding-right: 0;
+    }
+
+    .address-content {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+/* Mobile Screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .footer-align {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .words-content h3 {
+        font-size: 20px;
+    }
+
+    .words-content p {
+        font-size: 18px;
+    }
+
+    .input-element {
+        width: 100%;
+    }
+
+    .footer-header-list {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-header-list h4 {
+        font-size: 22px;
+    }
+
+    .footer-header-list li {
+        font-size: 18px;
+    }
+
+    .footer-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socialMedia-icons {
+        justify-content: center;
+        size:20px;
+        gap: 10px;
+    }
+
+    .footer-images {
+        width: 100%;
+    }
+
+    .images-content {
+        padding-right: 0;
+    }
+
+    .address-content {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .address-content p {
+        font-size: 22px;
+    }
+
+    .address-content li {
+        font-size: 18px;
+    }
+}

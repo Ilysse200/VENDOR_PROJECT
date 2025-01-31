@@ -52,3 +52,19 @@
     margin-left: auto;
 
 }  */
+  /* Responsive Design */
+@media (max-width: 1024px) {
+    .auth-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .auth-box {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .auth-box {
+        width: 100%;
+    }
+}

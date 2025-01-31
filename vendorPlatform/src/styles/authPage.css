@@ -96,10 +96,10 @@
 .forgot-password:hover {
     text-decoration: underline;
 }
-.radioButton{
+/* .radioButton{
     /* margin-right: 10px;
-    margin-bottom: 10px; */
-}
+    margin-bottom: 10px; 
+} */
 
 /* Role selection (Customer/Vendor) */
 .role-selection {
