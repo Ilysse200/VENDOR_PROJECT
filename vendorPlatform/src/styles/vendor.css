@@ -67,19 +67,20 @@ select {
 .store-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 2px;
+    margin-bottom: 50px;
 }
 
 /* Store Card */
 .store-card {
-    width:450px;
-    height:342px;
+    width:430px;
+    height:500px;
     background: white;
     /* border-radius: 10px; */
     overflow: hidden;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
     position: relative;
-    text-align: left;
+    text-align: justify;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -89,12 +90,13 @@ select {
 
 .store-image {
     width: 100%;
-    height: 180px;
+    height: fit-content;
     object-fit: cover;
 }
 
 .store-info {
     padding: 15px;
+    /* justify-content: inherit; */
 }
 
 .store-info h3 {
