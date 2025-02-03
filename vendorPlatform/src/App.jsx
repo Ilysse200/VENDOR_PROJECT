@@ -7,6 +7,8 @@ import Content from './components/Content';
 import Cards from './components/Cards';
 import Vendor from './components/Vendor';
 import AuthPage from './components/AuthPage';
+import Blog from './components/Blog';
+import Contact from './components/Contact';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -20,6 +22,8 @@ function App() {
       <Route path='/vendor'  element={<Vendor/>}/>
       {/* <Route path='/navbar' element={<Navbar/>}/> */}
       <Route path='/auth'  element={<AuthPage/>}/>
+      <Route path='/blog'  element={<Blog/>}/>
+      <Route path='/contact'  element={<Contact/>}/>
       </Route>
       
     </Routes>

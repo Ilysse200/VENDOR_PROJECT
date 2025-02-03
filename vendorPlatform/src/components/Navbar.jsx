@@ -33,8 +33,13 @@ export default function
         <li>Vendors</li>
         </Link>
         
+        <Link to='blog'>
         <li>Blog</li>
+        </Link>
+        <Link to='/contact'>
         <li>Contact</li>
+        </Link>
+        
         </ul>
         <div className='search'>
            <p>800-123-4567</p>
