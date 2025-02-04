@@ -81,12 +81,12 @@ export default function ContactUs() {
         <div className="store-info">
           <h2>Our Store</h2>
           <p>501-521 Fashion Ave, New York, NY 10018, USA</p>
-          <p><strong>PHONE:</strong> +1 212 244 2461</p>
-          <p><strong>E-MAIL:</strong> office@example.org</p>
+          <p>PHONE: +1 212 244 2461</p>
+          <p>E-MAIL: office@example.org</p>
 
           <h2>Store Hours</h2>
-          <p><strong>Sun:</strong> Closed</p>
-          <p><strong>Mon to Sat:</strong> 10 AM – 5:30 PM</p>
+          <p>Sun: Closed</p>
+          <p>Mon to Sat: 10 AM – 5:30 PM</p>
         </div>
       </div>
     </div>
