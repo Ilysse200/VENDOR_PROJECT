@@ -1,0 +1,109 @@
+/* .container{
+    background-color: white;
+    margin-top: 60px;
+}
+
+.buttonStyle{
+    background-color: aqua;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+} */
+/* .containerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+ } */
+ /* .containerForm{
+    /* margin-top: 55px; 
+    padding-left: 45px;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    
+} */
+.containerLogin{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.74);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.containerForm{
+    position: absolute;
+    top: 60px; 
+    right:173px;
+    padding-right: 15px;
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 470px;
+    height: 450px;
+    border: 1px solid rgb(216, 203, 203);
+    /* margin-left: 300px; */
+    border-radius: 10px;
+    
+}
+
+
+.login-form{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 28px;
+    /* align-content: center; */
+    
+
+}
+.login-title{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 18px;
+    text-align: center;
+}
+.input{
+    justify-content: space-between;
+    gap: 7px;
+    width: 290px;
+    height: 60px;
+    /* padding-bottom: 10px; */
+}
+.login-form button{
+    width: 220px;
+    height: 40px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+    justify-content: center;
+    align-content: center;
+    /* padding-left:45px ; */
+    /* padding-left: 10px; */
+    margin-left: 6px;
+}
+/* .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background 
+    z-index: 999; /* Ensure it sits behind the modal but above other elements 
+    display: none; /* Hidden by default 
+} */
+
+.registerLink{
+    padding-top: 15px;
+}
