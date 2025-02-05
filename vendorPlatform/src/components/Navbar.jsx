@@ -8,28 +8,21 @@ import UsestateHook from './Usestatehook';
 
 export default function 
 () {
-  const[modal, setModal] = useState(0);
+  const[modal, setModal] = useState(false);
     const handleLoginForm = () => {
         setModal(!modal);
     }
 
   return (
     <div>
-      
       <header className='header-container'>
             <h1>Botiga</h1>
             <button className='categoriesButton'>All categories</button>
             <button className='searchButton'>Search Product</button>
             <div className='profile-container'>
               <CgProfile className='profile-icon'onClick={handleLoginForm}/>
-            {modal && (
-              <>
-              {/*Overlay added here */}
-              <div className="overlay show" onClick={handleLoginForm}></div>  
-              <div className="login-popup"></div>
-            <UsestateHook handleLoginForm={handleLoginForm}/>
-              </>
-              )}
+            {modal && <UsestateHook handleLoginForm={handleLoginForm}/>
+              }
               </div>
             
             

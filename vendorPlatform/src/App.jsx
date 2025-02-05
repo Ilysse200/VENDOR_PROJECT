@@ -10,6 +10,7 @@ import AuthPage from './components/AuthPage';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import UsestateHook from './components/Usestatehook';
+import Navigation from './components/Navigation';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -30,6 +31,7 @@ function App() {
       
     </Routes>
     </BrowserRouter>
+    // <Navigation/>
   )
 }
 
