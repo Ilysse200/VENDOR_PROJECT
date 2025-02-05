@@ -48,6 +48,10 @@ export default function
         <Link to='/contact'>
         <li>Contact</li>
         </Link>
+
+        <Link to='/view'>
+        <li>view</li></Link>
+        
         
         </ul>
         <div className='search'>

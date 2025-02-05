@@ -10,7 +10,7 @@ const UsestateHook = ({handleLoginForm}) => {
 
     const handleRegister = () => {
         setForms(!forms);
-    } 
+    }
     
 
     return(
@@ -30,7 +30,7 @@ const UsestateHook = ({handleLoginForm}) => {
                 </form>
                 </div>
                 
-            {forms && <RegisterForm handleRegister={handleRegister}/> }
+            {forms && <RegisterForm handleRegister={handleRegister} handleLoginForm={handleLoginForm}/> }
                 
         </div>
                 

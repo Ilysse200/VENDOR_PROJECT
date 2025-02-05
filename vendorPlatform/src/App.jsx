@@ -11,6 +11,8 @@ import Blog from './components/Blog';
 import Contact from './components/Contact';
 import UsestateHook from './components/Usestatehook';
 import Navigation from './components/Navigation';
+import HomePage from './components/HomePage';
+import SinglePage from './components/SinglePage';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -27,6 +29,8 @@ function App() {
       <Route path='/blog'  element={<Blog/>}/>
       <Route path='/contact'  element={<Contact/>}/>
       {/* <Route path='/usestatehook'  element={<UsestateHook/>}/> */}
+      <Route path='/view'  element={<HomePage/>}/>
+      <Route path='/singlecard/:id' element={<SinglePage/>}/>
       </Route>
       
     </Routes>
