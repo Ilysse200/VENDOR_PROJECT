@@ -27,6 +27,7 @@ const categories = [
 ];
 export const products =[
     {
+        id:1,
         name: "bottle",
         picture:image1,
         price:"$22.00 - $55.00",
@@ -35,6 +36,7 @@ export const products =[
 
     }, 
     {
+        id:2,
         name: "Windows Alexa",
         picture:image2,
         price:"$49.00 – $69.00",
@@ -43,6 +45,7 @@ export const products =[
 
     },
     {
+        id:3,
         name: "HeadPhones",
         picture:image3,
         price:"$22.00 - $55.00",
@@ -69,7 +72,7 @@ export default function Content() {
         <div className='productsClass'>
             {
                 products.map((product) => (
-                    <div key={product.name} className='product'>
+                    <div key={product.id} className='product'>
                         <img src={product.picture} alt={product.name} className='productImage'/>
                         <h2>{product.name}</h2>
                         <p>{product.price}</p>
