@@ -25,7 +25,7 @@ const categories = [
     { id: 5, name: "Watch", image: product9 },
     { id: 6, name: "Woman Clothes", image: product10 }
 ];
-const products =[
+export const products =[
     {
         name: "bottle",
         picture:image1,

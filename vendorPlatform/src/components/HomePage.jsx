@@ -4,7 +4,7 @@ import pods from '../assets/product-category-8-1.jpg.webp'
 import blackMouse from '../assets/blackMouse.webp';
 import { useNavigate } from 'react-router-dom';
 
-export const data = [
+export const productList = [
     {
         id:1,
         image:pods,
@@ -23,7 +23,7 @@ function HomePage(){
     }
     return(
         <div className='container-home'>
-            {data.map((item)=>(
+            {productList.map((item)=>(
                 <div className='arrayCards' key={item.id}>
                     <div className='image-container'><img src={item.image}/></div>
                     <div> {item.cardTitle}</div>
