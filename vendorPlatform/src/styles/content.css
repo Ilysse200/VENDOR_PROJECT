@@ -153,6 +153,17 @@ h1{
     transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; */
     /* text-align: center; */
 }
+.vendor-heading{
+    text-align: left;
+}
+.vendor-content{
+    display: flex;
+    justify-content: space-between;
+}
+.vendorPic{
+    width: 625px;
+    height: 300px;
+}
 /* ============================= */
 /*        RESPONSIVE DESIGN      */
 /* ============================= */

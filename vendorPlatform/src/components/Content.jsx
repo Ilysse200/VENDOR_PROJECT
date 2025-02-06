@@ -155,6 +155,7 @@ export default function Content() {
             }
         </div>
         <button className='shop-Button'>SHOP NOW</button>
+        <h1 className='vendor-heading'>Our Vendor List</h1>
         <div className='vendor-content'>
             {vendorInfo.map((seller) => (
                 <div key={seller.id} className='seller-info'>
