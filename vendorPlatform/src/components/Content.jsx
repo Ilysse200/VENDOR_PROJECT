@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/content.css'
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
-
+import { useNavigate } from 'react-router-dom';
 
 //  Import images correctly
 import lotion from '../assets/lotion.webp';
@@ -56,6 +56,11 @@ export const products =[
 ]
 
 export default function Content() {
+    const navigation = useNavigate();
+    const handleNavigate = (id) => {
+        navigation(`/productsDetails/${id}`);
+    };
+
   return (
     <div>
         <h1>Popular Categories</h1>
@@ -74,11 +79,13 @@ export default function Content() {
                 products.map((product) => (
                     <div key={product.id} className='product'>
                         <img src={product.picture} alt={product.name} className='productImage'/>
+                        {/* <button type='button' className='click-button'>Quick view</button> */}
                         <h2>{product.name}</h2>
                         <p>{product.price}</p>
                         <div className='rating'>
                             {product.rating.map((star) => (star))}
                         </div>
+                        <button type='button' className='click-button' onClick={handleNavigate(product.id)}>quick view</button>
                     </div>
                 ))
             }

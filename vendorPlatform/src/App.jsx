@@ -13,6 +13,7 @@ import UsestateHook from './components/Usestatehook';
 import Navigation from './components/Navigation';
 import HomePage from './components/HomePage';
 import SinglePage from './components/SinglePage';
+import ProductsView from './components/ProductsView';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -31,6 +32,7 @@ function App() {
       {/* <Route path='/usestatehook'  element={<UsestateHook/>}/> */}
       <Route path='/view'  element={<HomePage/>}/>
       <Route path='/singlecard/:id' element={<SinglePage/>}/>
+      <Route path='/productsDetails/:id' element={<ProductsView/>}/>
       </Route>
       
     </Routes>

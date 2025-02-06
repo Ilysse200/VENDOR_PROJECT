@@ -7,7 +7,7 @@ function ProductsView() {
   const product = products.find((product) => product.id ==id);
   return (
     <div>
-        <div> <img src={product.picture}/></div>
+        <div className='product-image'><img src={product.picture}/></div>
         <div> {product.name}</div>
         <div> {product.price}</div>
     </div>
