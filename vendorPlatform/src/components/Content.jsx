@@ -33,7 +33,7 @@ import icon2 from '../assets/icon2.svg'
 import icon3 from '../assets/icon3.svg'
 
 //  Use imported images in the array
-const categories = [
+export const categories = [
     { id: 1, name: "Body Lotion", image: lotion },
     { id: 2, name: "Sports", image: sports },
     { id: 3, name: "Computer Gadget", image: product3 },
@@ -145,6 +145,12 @@ export default function Content() {
     const handleNavigate = (id) => {
         navigation(`/productsDetails/${id}`)
     }
+// usage of usenavigate hook to access array of categories using id
+
+    const navigationToCategory = useNavigate();
+    const handleNavigation = (id) =>{
+        navigationToCategory(`/category/${id}`)
+    }
 
   return (
     <div>
@@ -172,8 +178,10 @@ export default function Content() {
         <div className="gallery-container">
             {categories.map((item) => (
                 <div key={item.id} className="gallery-item">
-                    <img src={item.image} alt={item.name} className="gallery-image" />
+                    <img src={item.image} alt={item.name} className="gallery-image" onClick={()=>handleNavigation(item.id)}/>
                     <p>{item.name}</p>
+                    {/* <div className='view-buttons'>
+                    <button type='button'  o>view</button></div> */}
                 </div>
             ))}
         </div>

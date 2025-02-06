@@ -150,7 +150,7 @@ h1{
 
 .click-button{
     position: absolute;
-    top: 91.1rem;
+    top: 91rem;
     color: white;
     text-transform: uppercase;
     /* margin-left: 13rem;
@@ -293,6 +293,10 @@ h1{
     padding-bottom: 4rem;
     font: 16px Sen, sans-serif;
 }
+/* .view-buttons{
+    width: 190px;
+    height: 80px;
+} */
 
 /* ============================= */
 /*        RESPONSIVE DESIGN      */
