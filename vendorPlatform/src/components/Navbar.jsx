@@ -31,25 +31,25 @@ export default function
         <h3 className='heading'>Trending categories</h3>
         <ul className='listing'>
         
-        <Link to ='/content'>
+        <Link to ='/content' className='contentLink'>
         <li>Home</li>
         </Link>
-        <Link to='/cards'>
+        <Link to='/cards' className='contentLink'>
         <li>Shop</li>
         </Link>
 
-        <Link to='/vendor'>
+        <Link to='/vendor' className='contentLink'>
         <li>Vendors</li>
         </Link>
         
-        <Link to='blog'>
+        <Link to='blog' className='contentLink'>
         <li>Blog</li>
         </Link>
-        <Link to='/contact'>
+        <Link to='/contact' className='contentLink'>
         <li>Contact</li>
         </Link>
 
-        <Link to='/view'>
+        <Link to='/view' className='contentLink'>
         <li>view</li></Link>
         
         

@@ -58,8 +58,8 @@ export const products =[
 export default function Content() {
     const navigation = useNavigate();
     const handleNavigate = (id) => {
-        navigation(`/productsDetails/${id}`);
-    };
+        navigation(`/productsDetails/${id}`)
+    }
 
   return (
     <div>
@@ -85,7 +85,7 @@ export default function Content() {
                         <div className='rating'>
                             {product.rating.map((star) => (star))}
                         </div>
-                        <button type='button' className='click-button' onClick={handleNavigate(product.id)}>quick view</button>
+                        <button type='button' className='click-button' onClick={()=>handleNavigate(product.id)}>quick view</button>
                     </div>
                 ))
             }

@@ -26,14 +26,18 @@ h1{
 }
 
 .productsClass{
+    /* position: relative; */
     display: flex;
     padding-left: 10px;
     text-align: center;
     font-size: 20px;
 }
 .productImage{
-    width:600px ;
-    height: 600px;
+    width:530px ;
+    height: 570px;
+}
+.productImage :hover{
+    cursor: pointer;
 }
 .productTitle{
     font-size: 45px;
@@ -72,6 +76,22 @@ h1{
     margin-bottom: 40px;
     margin-top: 30px;
     background-color: lightgray;
+}
+
+.click-button{
+    position: absolute;
+    top: 91.3rem;
+    /* margin-left: 13rem;
+    margin-bottom: 8rem;
+    display: flow-root;
+    justify-content: center;*/
+    width: 513px;
+    height: 40px; /*
+    padding-top: 1rem;
+    border-radius: 3px;
+    border: 1px solid gray; */
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
 }
 /* ============================= */
 /*        RESPONSIVE DESIGN      */
@@ -123,6 +143,7 @@ h1{
     }
 
     .productsClass {
+        position: relative;
         flex-direction: column;
         align-items: center;
         text-align: center;
