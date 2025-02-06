@@ -10,6 +10,7 @@ function ProductsView() {
         <div className='product-image'><img src={product.picture}/></div>
         <div> {product.name}</div>
         <div> {product.price}</div>
+        <div> {product.rating}</div>
     </div>
   )
 }

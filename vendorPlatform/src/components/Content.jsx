@@ -63,7 +63,23 @@ export default function Content() {
 
   return (
     <div>
-        <h1>Popular Categories</h1>
+        <div className='choose-categories'>
+            <ul>
+                <li>Electronics</li>
+                <li>Computer Gadget</li>
+                <li>Fashion</li>
+                <li>Body Lotion</li>
+                <li>Sports</li>
+                <li>Woman Clothes</li>
+                <li>Shoes</li>
+                <li>Watches</li>
+            </ul>
+            <div className='categories-content'>
+            <h2>Explore our latest and <br/>greatest electronics</h2>
+            <button type='button' className='categories-button'>shop now</button>
+            </div> 
+        </div>
+        <h1 className='categories-heading'>Popular Categories</h1>
         
         <div className="gallery-container">
             {categories.map((item) => (
