@@ -142,15 +142,15 @@ export const products =[
 
 export default function Content() {
     const navigation = useNavigate();
-    const handleNavigate = (id) => {
-        navigation(`/productsDetails/${id}`)
-    }
-// usage of usenavigate hook to access array of categories using id
+    const navigate = useNavigate(); // Use one instance
 
-    const navigationToCategory = useNavigate();
-    const handleNavigation = (id) =>{
-        navigationToCategory(`/category/${id}`)
-    }
+const handleNavigate = (id) => {
+    navigate(`/productsDetails/${id}`);
+};
+
+const handleNavigation = (id) => {
+    navigate(`/category/${id}`);
+};
 
   return (
     <div>

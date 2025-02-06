@@ -14,6 +14,7 @@ import Navigation from './components/Navigation';
 import HomePage from './components/HomePage';
 import SinglePage from './components/SinglePage';
 import ProductsView from './components/ProductsView';
+import CategoryView from './components/CategoryView';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -33,6 +34,7 @@ function App() {
       <Route path='/view'  element={<HomePage/>}/>
       <Route path='/singlecard/:id' element={<SinglePage/>}/>
       <Route path='/productsDetails/:id' element={<ProductsView/>}/>
+      <Route path='/category/:id' element={<CategoryView/>}/>
       </Route>
       
     </Routes>
