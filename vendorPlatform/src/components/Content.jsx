@@ -1,7 +1,10 @@
 import React from 'react';
 import '../styles/content.css'
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
+// import arrow icon
+import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 //  Import images correctly
 import lotion from '../assets/lotion.webp';
@@ -23,6 +26,11 @@ import vendorC from '../assets/vendorC.webp'
 import vendorD from '../assets/vendorD.webp'
 import vendorE from '../assets/vendorE.webp'
 import vendorF from '../assets/vendorF.webp'
+
+//import icons images
+import icon1 from '../assets/icon1.svg'
+import icon2 from '../assets/icon2.svg'
+import icon3 from '../assets/icon3.svg'
 
 //  Use imported images in the array
 const categories = [
@@ -79,6 +87,7 @@ export const products =[
         name: "bottle",
         picture:image1,
         price:"$22.00 - $55.00",
+        details:"Stay hydrated in style with our sleek, spill-proof bottle! Designed for durability and freshness, it keeps your drinks hot or cold for hours. Perfect for travel, work, or the gym!",
         rating: [<FaStar color='orange'/>, <FaStar color='orange'/>, <FaStar color='orange'/>, <FaStar color='grey'/>,, <FaStar color='grey'/>
     ]
 
@@ -88,6 +97,7 @@ export const products =[
         name: "Windows Alexa",
         picture:image2,
         price:"$49.00 – $69.00",
+        details:"Control your home, play music, get weather updates, and much more – all hands-free! Just say “Alexa”, and let the magic happen! ",
         rating: [<FaStar color='orange'/>, <FaStar color='orange'/>, <FaStar color='orange'/>, , <FaStar color='orange'/>,, <FaStar color='orange'/>
     ]
 
@@ -97,10 +107,37 @@ export const products =[
         name: "HeadPhones",
         picture:image3,
         price:"$22.00 - $55.00",
+        details:"Experience premium sound with our high-fidelity headphones! Crystal-clear audio, deep bass, and all-day comfort—perfect for music, gaming, and calls.",
         rating: [<FaStar color='orange'/>, <FaStar color='orange'/>, <FaStar color='orange'/>, , <FaStar color='orange'/>, <FaStar color='grey'/>
     ]
 
     }
+]
+
+//create the array of icons
+ const iconsArray =[
+    {
+        id:1,
+        name: "Easy Returns",
+        icons:icon1,
+        description:"Our return policy is simple and that is why customers love our shop."
+
+    }, 
+    {
+        id:2,
+        name: "Customer Service",
+        icons:icon2,
+        description:"Our return policy is simple and that is why customers love our shop"
+
+    },
+    {
+        id:3,
+        name: "High Quality",
+        icons:icon3,
+        description:"Our return policy is simple and that is why customers love our shop."
+
+    },
+    
 ]
 
 export default function Content() {
@@ -124,7 +161,10 @@ export default function Content() {
             </ul>
             <div className='categories-content'>
             <h2>Explore our latest and <br/>greatest electronics</h2>
+            <Link to='/cards' className='link-type'>
             <button type='button' className='categories-button'>shop now</button>
+            </Link>
+            
             </div> 
         </div>
         <h1 className='categories-heading'>Popular Categories</h1>
@@ -154,18 +194,38 @@ export default function Content() {
                 ))
             }
         </div>
+        <Link to='/cards' className='link-type'>
         <button className='shop-Button'>SHOP NOW</button>
+        </Link>
         <h1 className='vendor-heading'>Our Vendor List</h1>
         <div className='vendor-content'>
             {vendorInfo.map((seller) => (
                 <div key={seller.id} className='seller-info'>
-                    <div className='vendorPic'> <img src={seller.image}/></div>
+                    <div className='vendorPic'> <img src={seller.image} className='seller-image'/></div>
                     <div className='vender-information'>
-                        <p>{seller.name}</p>
-                        <p>{seller.address}</p>
+                        <div className='icon-seller'>
+                        <p className='seller-name'>{seller.name}</p>
+                        <IoIosArrowDroprightCircle className='arrow-icon'/>
+                        </div>
+                        <p className='adress-component'>{seller.address}</p>
                     </div>
                 </div>
             ))}
+            <Link to='/vendor' className='link-type'>
+            <button type='button' className='vendors-button'>see all vendors</button>
+            </Link>
+            
+        </div>
+        <h1 className='marketing-title'>Why people choose us</h1>
+        <div className='marketing-reasons'>
+            {iconsArray.map((icon)=>(
+                <div className='icon-section'>
+                    <div><img src={icon.icons} className='icon-modify'/></div>
+                    <div className='icon-name'>{icon.name}</div>
+                    <div className='icons-details'>{icon.description}</div>
+                </div>
+            ))}
+
         </div>
         
     </div>
