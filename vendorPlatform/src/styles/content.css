@@ -135,6 +135,8 @@ h1{
 .click-button{
     position: absolute;
     top: 103.3rem;
+    color: white;
+    text-transform: uppercase;
     /* margin-left: 13rem;
     margin-bottom: 8rem;
     display: flow-root;
