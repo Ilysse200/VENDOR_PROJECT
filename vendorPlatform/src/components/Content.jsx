@@ -34,12 +34,12 @@ import icon3 from '../assets/icon3.svg'
 
 //  Use imported images in the array
 export const categories = [
-    { id: 1, name: "Body Lotion", image: lotion },
-    { id: 2, name: "Sports", image: sports },
-    { id: 3, name: "Computer Gadget", image: product3 },
-    { id: 4, name: "Electronics", image: product8 },
-    { id: 5, name: "Watch", image: product9 },
-    { id: 6, name: "Woman Clothes", image: product10 }
+    { id: 1, name: "Body Lotion", image: lotion, details: "cosmetics", price: "40$-50$" },
+    { id: 2, name: "Sports", image: sports,details: "cosmetics", price: "40$-50$" },
+    { id: 3, name: "Computer Gadget", image: product3, details: "electronics", price: "40$-50$" },
+    { id: 4, name: "Electronics", image: product8,details: "cosmetics", price: "40$-50$" },
+    { id: 5, name: "Watch", image: product9, details: "cosmetics", price: "40$-50$" },
+    { id: 6, name: "Woman Clothes", image: product10, details: "cosmetics", price: "40$-50$" }
 ];
 const vendorInfo = [
     {
