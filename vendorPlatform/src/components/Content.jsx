@@ -16,6 +16,14 @@ import image1 from '../assets/product-water-bottle-420x420.jpg.webp';
 
 import image2 from '../assets/alexa.webp'
 
+//Import vendor images
+import vendorA from '../assets/vendorA.webp'
+import vendorB from '../assets/vendorB.webp'
+import vendorC from '../assets/vendorC.webp'
+import vendorD from '../assets/vendorD.webp'
+import vendorE from '../assets/vendorE.webp'
+import vendorF from '../assets/vendorF.webp'
+
 //  Use imported images in the array
 const categories = [
     { id: 1, name: "Body Lotion", image: lotion },
@@ -24,6 +32,46 @@ const categories = [
     { id: 4, name: "Electronics", image: product8 },
     { id: 5, name: "Watch", image: product9 },
     { id: 6, name: "Woman Clothes", image: product10 }
+];
+const vendorInfo = [
+    {
+        id:1,
+        name: "Santa Monica's Store",
+        image:vendorA,
+        address: 'New York, NY'
+    },
+    {
+        id:2,
+        image:vendorB,
+        name:"Josh Doe's Store",
+        address: 'New York, NY'
+    },
+    {
+        id:3,
+        image:vendorC,
+        name: "Digital Good's Store",
+        address: 'New York, NY'
+    },
+    {
+        id:4,
+        image:vendorD,
+        name: "Jessica's Store",
+        address: 'New York, NY'
+    },
+    {
+        id:5,
+        image:vendorE,
+        name:"The Glass Store",
+        address: 'New York, NY'
+    },
+    {
+        id:6,
+        image:vendorF,
+        name: "John Doe's Store",
+        address: 'New York, NY'
+    },
+    
+
 ];
 export const products =[
     {
@@ -107,6 +155,17 @@ export default function Content() {
             }
         </div>
         <button className='shop-Button'>SHOP NOW</button>
+        <div className='vendor-content'>
+            {vendorInfo.map((seller) => (
+                <div key={seller.id} className='seller-info'>
+                    <div className='vendorPic'> <img src={seller.image}/></div>
+                    <div className='vender-information'>
+                        <p>{seller.name}</p>
+                        <p>{seller.address}</p>
+                    </div>
+                </div>
+            ))}
+        </div>
         
     </div>
   );
