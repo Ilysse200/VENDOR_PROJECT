@@ -90,4 +90,55 @@
     color: darkblue;
 }
 
+/* ============================= */
+/*        RESPONSIVE DESIGN      */
+/* ============================= */
 
+/* Tablet Screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .containerForm {
+        top: 100px;
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .input {
+        width: 100%;
+        max-width: 270px;
+    }
+
+    .register-form button {
+        max-width: 200px;
+    }
+}
+
+/* Mobile Screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .containerForm {
+        width: 90%;
+        max-width: 350px;
+        padding: 15px;
+    }
+
+    .input {
+        width: 100%;
+        max-width: 250px;
+        height: 45px;
+    }
+
+    .register-form button {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .closeIcon {
+        font-size: 20px;
+        top: 5px;
+        right: 5px;
+    }
+
+    .register-title {
+        font-size: 20px;
+    }
+}

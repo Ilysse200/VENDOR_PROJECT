@@ -49,3 +49,62 @@
     padding-bottom: 6rem;
     margin-left: 2rem;
 }
+
+
+/* ============================= */
+/*        RESPONSIVE DESIGN      */
+/* ============================= */
+
+/* Tablet Screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .container-product {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        text-align: center;
+    }
+
+    .product-pic {
+        max-width: 350px;
+    }
+
+    .product-name {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .product-details {
+        font-size: 18px;
+        max-width: 500px;
+    }
+}
+
+/* Mobile Screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .container-product {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .product-pic {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .product-name {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .product-price {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .product-details {
+        font-size: 16px;
+        text-align: center;
+        width: 90%;
+    }
+}

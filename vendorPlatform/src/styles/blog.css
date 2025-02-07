@@ -67,3 +67,51 @@ h1{
 .blog-readmore:hover {
     text-decoration: underline;
 }
+
+
+/* ============================= */
+/*        RESPONSIVE DESIGN      */
+/* ============================= */
+
+/* Tablet Screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .blog-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
+
+    .blog-title {
+        font-size: 16px;
+    }
+
+    .blog-description {
+        font-size: 13px;
+    }
+}
+
+/* Mobile Screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .blog-container {
+        grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
+        padding: 10px;
+    }
+
+    .blog-card {
+        padding: 10px;
+    }
+
+    .blog-title {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .blog-description {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .blog-readmore {
+        text-align: center;
+        display: block;
+        font-size: 14px;
+    }
+}
