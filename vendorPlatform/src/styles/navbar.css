@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700&display=swap');
 .container {
     margin-top: 80px;
     background-color: rgb(0, 119, 255);
@@ -77,14 +79,18 @@
     height: 55px;
     align-items: center;
     margin-top: 30px;
+    /* font: 24px Overlock, display; */
+    margin-left: 2.79rem;
     /* padding-right: 20px; */
 }
 .header-container h1{
     font-size: 45px;
     margin-left: 45px;
-    margin-top: 10px;
+    margin-top: 5.4rem;
     align-items: center;
     margin-right: 300px;
+    font: 32px Overlock, display;
+    font-weight: 500;
 }
 /* .header-container button{
     justify-items: space-between;
