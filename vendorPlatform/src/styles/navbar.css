@@ -17,6 +17,11 @@
     font-weight: bold;
     /* text-decoration: none; */
 }
+.down-arrow{
+    width: 40px;
+    height: 40px;
+    margin-right: 16rem;
+}
 .heading {
     font-size: 25px;
     color: white;

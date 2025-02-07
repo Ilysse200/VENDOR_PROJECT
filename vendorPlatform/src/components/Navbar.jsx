@@ -5,6 +5,7 @@ import {faPhone} from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import { CgProfile } from "react-icons/cg";
 import UsestateHook from './Usestatehook';
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 export default function 
 () {
@@ -29,6 +30,7 @@ export default function
         </header>
     <div className='container'>
         <h3 className='heading'>Trending categories</h3>
+        <MdKeyboardArrowDown className='down-arrow'/>
         <ul className='listing'>
         
         <Link to ='/content' className='contentLink'>
