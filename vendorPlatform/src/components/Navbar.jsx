@@ -49,8 +49,8 @@ export default function
         <li>Contact</li>
         </Link>
 
-        <Link to='/view' className='contentLink'>
-        <li>view</li></Link>
+        {/* <Link to='/view' className='contentLink'>
+        <li>view</li></Link> */}
         
         
         </ul>
