@@ -20,14 +20,14 @@
 .down-arrow{
     width: 40px;
     height: 40px;
-    margin-right: 16rem;
+    margin-right: 19rem;
 }
 .heading {
     font-size: 25px;
     color: white;
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove extra spacing */
-    padding-left: 25px;
+    padding-left: 58px;
 }
 .listing{
     font-size: 25px;
@@ -36,7 +36,7 @@
     list-style-type: none;
     /* align-items: center; */
     margin-right:100px;
-    margin-left: 200px;
+    margin-left: 5px;
     padding-bottom: -2px;
     left:0;
     text-decoration: none;
