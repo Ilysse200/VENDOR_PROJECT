@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/AuthPage.css";
+import "../styles/authPage.css";
 
 const AuthPage = () => {
   const [role, setRole] = useState("customer");
