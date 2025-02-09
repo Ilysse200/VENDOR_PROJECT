@@ -3,11 +3,12 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './',  // Fix relative paths for production
+  base: './', // Ensures assets like CSS are correctly referenced
   build: {
-    outDir: 'dist',  // Ensure output goes to the correct folder
+    outDir: 'dist',
   },
   server: {
-    historyApiFallback: true, // Ensures routing works in dev
+    host: true, // Allows access via network IP (169.254.x.x)
+    port: 3000, 
   },
 });
