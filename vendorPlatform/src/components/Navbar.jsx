@@ -53,6 +53,10 @@ export default function
 
         {/* <Link to='/view' className='contentLink'>
         <li>view</li></Link> */}
+        <Link to='/formSubmit'>
+        <li>Form</li>
+        </Link>
+        
         
         
         </ul>
