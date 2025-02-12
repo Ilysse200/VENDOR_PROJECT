@@ -16,6 +16,9 @@ import SinglePage from './components/SinglePage';
 import ProductsView from './components/ProductsView';
 import CategoryView from './components/CategoryView';
 import HomeProduct from './components/HomeProduct';
+import DashboardView from './Dashboard/DashboardView';
+import DashboardLayout from './Dashboard/dashboardLayout';
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -38,7 +41,9 @@ function App() {
       <Route path='/category/:id' element={<CategoryView/>}/>
       <Route path='/formSubmit'  element={<HomeProduct/>}/>
       </Route>
-      
+      <Route path='/' element={<DashboardLayout/>}>
+      <Route path='/dashboard' index element={<DashboardView/>}/>
+      </Route>
     </Routes>
     </BrowserRouter>
     // <Navigation/>

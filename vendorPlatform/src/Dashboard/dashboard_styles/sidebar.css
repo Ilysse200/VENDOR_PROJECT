@@ -1,0 +1,61 @@
+.admin-icon{
+    width: 14rem;
+    height: 10vh;
+    background-color: #007aff;
+}
+.admin-icon p{
+    padding-left: 1rem;
+    columns: white;
+}
+.dashboard-icon{
+    display: flex;
+
+}
+.dashb-icon{
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+
+}
+.dashboard-menu{
+    /* padding-left: 0.8rem; */
+    width: 14rem;
+    height: 13vh;
+    background-color: #D5D7D8;
+    list-style-type: none;
+}
+.dashboard-menu :hover{
+    cursor: pointer;
+
+}
+.admin-profile{
+    width: 15rem;
+    height: 5vh;
+    align-items: center;
+    color: white;
+    padding-top: 1rem;
+    padding-right: 11rem;
+}
+.dashboard-title{
+    padding-bottom: 2rem;
+    padding-left: 0.6rem;
+    padding-top: 2rem;
+}
+.sidebar-list{
+    width:14rem;
+    height: 100vh;
+    background-color: #D5D7D8;
+}
+
+.sidebar-list li{
+    padding-top: 4rem;
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 1.3rem;
+}
+.toggle-icon{
+    width: 2rem;
+    margin: 0;
+    margin-top: 2.2rem;
+    display: flex;
+}

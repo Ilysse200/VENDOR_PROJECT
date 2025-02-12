@@ -1,0 +1,43 @@
+.array-container{
+    width: 30%;
+    height: 4rem;
+    display: flex;
+}
+
+.array-elements{
+    margin-left: 15rem;
+    /* display: flex; */
+    /* flex-direction: row; */
+    width: 2rem;
+    height: 22px;
+    /* background-color: blueviolet; */
+    padding: 0;
+    /* flex-direction: row; */
+}
+
+
+
+.array-cards{
+    padding-top: 0.6rem;
+    padding-left: 1rem;
+    border: 1px solid gainsboro;
+    border-radius: 0.4rem;
+    width: 14rem;
+    height: 10vh;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+}
+.color-chooser{
+    background-color: blue;
+}
+.color-chooser1{
+    background-color: aquamarine;
+}
+.color-chooser2{
+    background-color: beige;
+}
+.sales-icon{
+    width: 10rem;
+    height: 3vh;
+    color: white;
+}
