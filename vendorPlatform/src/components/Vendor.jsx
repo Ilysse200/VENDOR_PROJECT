@@ -7,7 +7,7 @@ import glasses from '../assets/glasses.webp';
 import equipment from '../assets/blackEquipment.webp';
 import person from '../assets/blueShirt.webp';
 import blankPerson from '../assets/blankProfile.png'
-const stores = [
+export const stores = [
   {
     name: "John Doe's Store",
     image: "https://demo.athemes.com/botiga-multi-vendor-el/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/sites/145/2022/12/cropped-vendor-banner-6.jpg.webp",

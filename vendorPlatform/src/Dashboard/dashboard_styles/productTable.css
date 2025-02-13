@@ -18,3 +18,14 @@
     width: 2rem;
     height: 2rem;
 }
+.product-pic{
+    display: flex;
+    width: 90px;
+    height: 200px;
+    margin-left: 3rem;
+    margin-right: 0.4rem;
+}
+.product-value{
+    width:0.5rem;
+    
+}

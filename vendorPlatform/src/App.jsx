@@ -19,6 +19,8 @@ import HomeProduct from './components/HomeProduct';
 import DashboardView from './Dashboard/DashboardView';
 import DashboardLayout from './Dashboard/dashboardLayout';
 import ProductTable from './Dashboard/ProductTable';
+import Vendor_Table from './Dashboard/Vendor_Table';
+import BlogTable from './Dashboard/BlogTable';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -45,6 +47,8 @@ function App() {
       <Route path='/' element={<DashboardLayout/>}>
       <Route path='/dashboard' index element={<DashboardView/>}/>
       <Route path='/productTable' element={<ProductTable/>}/>
+      <Route path='/vendorTable' element={<Vendor_Table/>}/>
+      <Route path='/blogTable' element={<BlogTable/>}/>
       </Route>
     </Routes>
     </BrowserRouter>

@@ -10,7 +10,7 @@ import blog4 from '../assets/blog4.webp'
 import blog5 from '../assets/blog5.webp'
 import blog6 from '../assets/blog6.webp'
 
-const blogPosts = [
+export const blogPosts = [
     {
         id: 1,
         date: "July 18, 2021",

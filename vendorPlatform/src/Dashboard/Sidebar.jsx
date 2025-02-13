@@ -12,10 +12,19 @@ function Sidebar() {
   //Navigation path
   const navigate = useNavigate();
 
+  // The path to the product table
   const handleNavigate = () => {
     navigate(`/productTable`);
 };
 
+//The path to the vendor table
+  const handleVendors=() =>{
+    navigate(`/vendorTable`);
+  } 
+  // The path to the blog table
+  const handleBlog = () => {
+    navigate(`/blogTable`);
+  }
   const [expanded, setExpanded] = useState(false);// when menu is not clicked
 
    // Toggle function
@@ -39,8 +48,8 @@ function Sidebar() {
             {expanded &&(
             <ul className='sidebar-list'>
                 <li onClick={() => {handleNavigate("/productTable")}}>Products</li>
-                <li>Vendors</li>
-                <li>Blog</li>
+                <li onClick={() => {handleVendors("/vendorTable")}}>Vendors</li>
+                <li onClick={() => {handleBlog("/blogTable")}}>Blog</li>
                 <li>Contact</li>
             </ul>
             )}
