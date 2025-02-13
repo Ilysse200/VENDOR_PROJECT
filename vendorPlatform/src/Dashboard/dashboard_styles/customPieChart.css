@@ -1,0 +1,8 @@
+.pie-container{
+    width:40rem;
+    height: 15vh;
+    display: flex;
+    margin-left: 10rem;
+    position: absolute;
+    top:52rem;
+}

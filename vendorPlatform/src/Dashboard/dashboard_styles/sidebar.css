@@ -5,7 +5,7 @@
 }
 .admin-icon p{
     padding-left: 1rem;
-    columns: white;
+    color: white;
 }
 .dashboard-icon{
     display: flex;
@@ -42,7 +42,7 @@
 }
 .sidebar-list{
     width:14rem;
-    height: 100vh;
+    height: 160vh;
     background-color: #D5D7D8;
 }
 

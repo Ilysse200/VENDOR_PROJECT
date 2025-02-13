@@ -1,0 +1,20 @@
+.product-Table{
+    width: 45rem;
+    height: 10vh;
+    margin-left: 17rem;
+    /* padding-bottom: 2rem; */
+}
+.table-row{
+    border: 1px solid #232222;
+}
+.table-values{
+    
+}
+.product-headers{
+    width: 3rem;
+    height: 4rem;
+}
+.product-values{
+    width: 2rem;
+    height: 2rem;
+}

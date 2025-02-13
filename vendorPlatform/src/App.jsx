@@ -18,6 +18,7 @@ import CategoryView from './components/CategoryView';
 import HomeProduct from './components/HomeProduct';
 import DashboardView from './Dashboard/DashboardView';
 import DashboardLayout from './Dashboard/dashboardLayout';
+import ProductTable from './Dashboard/ProductTable';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -43,6 +44,7 @@ function App() {
       </Route>
       <Route path='/' element={<DashboardLayout/>}>
       <Route path='/dashboard' index element={<DashboardView/>}/>
+      <Route path='/productTable' element={<ProductTable/>}/>
       </Route>
     </Routes>
     </BrowserRouter>

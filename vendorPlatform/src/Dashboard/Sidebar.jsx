@@ -4,9 +4,17 @@ import '../Dashboard/dashboard_styles/sidebar.css'
 import { MdOutlineSpaceDashboard } from "react-icons/md";
 import { IoPersonCircleOutline } from "react-icons/io5";
 import { IoMdArrowDropright } from "react-icons/io";
+import { useNavigate } from 'react-router-dom';
 
 
 function Sidebar() {
+
+  //Navigation path
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate(`/productTable`);
+};
 
   const [expanded, setExpanded] = useState(false);// when menu is not clicked
 
@@ -30,7 +38,7 @@ function Sidebar() {
             
             {expanded &&(
             <ul className='sidebar-list'>
-                <li>Products</li>
+                <li onClick={() => {handleNavigate("/productTable")}}>Products</li>
                 <li>Vendors</li>
                 <li>Blog</li>
                 <li>Contact</li>
