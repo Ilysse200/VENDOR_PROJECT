@@ -3,10 +3,10 @@ import {blogPosts} from '../components/Blog'
 import '../Dashboard/dashboard_styles/productTable.css'
 function BlogTable() {
   return (
-    <div>
-        <table className='product-Table' border={1}>
+    <div className='table-container'>
+        <table className='product-Table'>
             <thead>
-                <tr>
+                <tr className='table-row'>
                     <th className='product-headers'>Image</th>
                     <th className='product-headers'>Date</th>
                     <th className='product-headers'>Title</th>

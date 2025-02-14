@@ -24,10 +24,10 @@ const Contact = [
 ]
 function ContactTable() {
   return (
-    <div>
-        <table className='product-Table' border={1}>
+    <div className='table-container'>
+        <table className='product-Table'>
             <thead>
-                <tr>
+                <tr className='table-row'>
                     <th className='product-headers'>Name</th>
                     <th className='product-headers'>Email</th>
                     <th className='product-headers'>Phone</th>
