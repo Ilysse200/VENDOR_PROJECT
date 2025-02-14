@@ -4,6 +4,7 @@ import '../Dashboard/dashboard_styles/productTable.css'
 function Vendor_Table() {
   return (
     <div className='table-container'>
+         <h1 className='product-title'>Blogs</h1>
         <table className='product-Table'>
             <thead>
                 

@@ -25,6 +25,7 @@ const Contact = [
 function ContactTable() {
   return (
     <div className='table-container'>
+         <h1 className='product-title'>Contact</h1>
         <table className='product-Table'>
             <thead>
                 <tr className='table-row'>

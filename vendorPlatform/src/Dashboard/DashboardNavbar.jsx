@@ -9,7 +9,7 @@ function DashboardNavbar() {
     <div className='navigation-container'>
         <div className='nav-bar'>
           <div className='nav-content'>
-          <p>Dashboard</p>
+          <p className='dashboard-text'>Dashboard</p>
           <FiMenu />
           </div>
           <div className='navbar-rightcontent'>

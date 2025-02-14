@@ -4,6 +4,7 @@ import '../Dashboard/dashboard_styles/productTable.css'
 function BlogTable() {
   return (
     <div className='table-container'>
+         <h1 className='product-title'>Blogs</h1>
         <table className='product-Table'>
             <thead>
                 <tr className='table-row'>
@@ -18,8 +19,8 @@ function BlogTable() {
                 <tr>
                     <td className='product-value'><img src={blog.image} className='product-pic'/></td>
                     <td className='product-values'>{blog.date}</td>
-                    <td className='product-values'>{blog.title}</td>
-                    <td className='product-values'>{blog.description}</td>
+                    <td className='contact-styles'>{blog.title}</td>
+                    <td className='contact-styles'>{blog.description}</td>
 
                 </tr>
                 ))}

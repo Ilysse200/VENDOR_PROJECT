@@ -49,6 +49,11 @@
     /* border: 1px solid #232222; */
     /* box-shadow: 10px 10px 10px #cacdd2; */
 }
+.contact-styles{
+    width: 4rem;
+    height: 3rem;
+    text-align: left;
+}
 .product-pic{
     display: flex;
     width: 90px;
