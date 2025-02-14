@@ -6,7 +6,7 @@ function ProductTable() {
 
   return (
     <div className='table-container'>
-      <h1>Product List</h1>
+      <h1 className='product-title'>Product List</h1>
         <table className='product-Table' table border={1}>
           <thead>
             <tr className='table-row'>

@@ -170,7 +170,7 @@ const data = [
       <p className="increase">1.35% ↑ More than last month</p>
       <ResponsiveContainer width={340} height={120}>
         <BarChart data={customersData}>
-          <Bar dataKey="value" fill="purple" />
+          <Bar dataKey="value" fill="#7b2bee" />
         </BarChart>
       </ResponsiveContainer> 
     </div>
