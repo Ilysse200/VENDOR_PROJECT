@@ -5,7 +5,7 @@ import '../Dashboard/dashboard_styles/productTable.css'
 function ProductTable() {
 
   return (
-    <div>
+    <div className='table-container'>
       <h1>Product List</h1>
         <table className='product-Table' table border={1}>
           <thead>
