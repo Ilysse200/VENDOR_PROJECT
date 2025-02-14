@@ -10,7 +10,7 @@ function DashboardNavbar() {
         <div className='nav-bar'>
           <div className='nav-content'>
           <p className='dashboard-text'>Dashboard</p>
-          <FiMenu />
+          <FiMenu className='menu-icon'/>
           </div>
           <div className='navbar-rightcontent'>
           <p className='search-border'>Type to search<CiSearch className='search-icon'/></p>

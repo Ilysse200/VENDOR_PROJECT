@@ -18,11 +18,19 @@
     padding-top: 0.6rem;
     margin-right: 91rem;
 }
+.nav-content p{
+    padding-left: 0.1rem;
+}
 /* .dashboard-text{
     position: absolute;
     padding-left: 34rem;
     /* margin-right: 1rem; 
 } */
+.menu-icon{
+    margin-top: 0.2rem;
+    width: 2rem;
+    height: 2vh;
+}
 .navbar-rightcontent{
     position: absolute;
     top: 0.7rem;
