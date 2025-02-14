@@ -6,7 +6,7 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 import { RxAvatar } from "react-icons/rx";
 function DashboardNavbar() {
   return (
-    <div>
+    <div className='navigation-container'>
         <div className='nav-bar'>
           <div className='nav-content'>
           <p>Dashboard UI</p>

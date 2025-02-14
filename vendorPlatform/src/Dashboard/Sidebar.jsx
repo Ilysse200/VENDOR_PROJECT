@@ -11,11 +11,12 @@ function Sidebar() {
 
   return (
     <div>
+      <div className='dashboard-menu'>
         <div className='admin-icon' >
             <IoPersonCircleOutline className='admin-profile'/>
             <p>Admin</p>
         </div>
-        <div className='dashboard-menu'>
+        
             <div className='dashboard-icon'>
             <MdOutlineSpaceDashboard className='dashb-icon'/>
             <li className='dashboard-title'>dashboard</li>
@@ -25,9 +26,9 @@ function Sidebar() {
             
             
             <ul className='sidebar-list'>
-              {/* <Link to='/dashboard' className='link-path'>
+              <Link to='/dashboard' className='link-path'>
               <li>Dashboard Overview</li>
-              </Link> */}
+              </Link>
               <Link to='/productTable'className='link-path'>
               <li>Products</li>
               </Link>

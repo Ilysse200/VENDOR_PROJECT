@@ -18,8 +18,9 @@
 }
 .dashboard-menu{
     /* padding-left: 0.8rem; */
+    position: fixed;
     width: 14rem;
-    height: 150vh;
+    height: 160vh;
     background-color: #D5D7D8;
     list-style-type: none;
 }
