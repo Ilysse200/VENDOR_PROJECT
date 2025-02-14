@@ -44,13 +44,14 @@ function App() {
       <Route path='/category/:id' element={<CategoryView/>}/>
       <Route path='/formSubmit'  element={<HomeProduct/>}/>
       </Route>
-      <Route path='/' element={<DashboardLayout/>}>
-      <Route path='/dashboard' index element={<DashboardView/>}/>
-      <Route path='/productTable' element={<ProductTable/>}/>
-      <Route path='/vendorTable' element={<Vendor_Table/>}/>
-      <Route path='/blogTable' element={<BlogTable/>}/>
-      </Route>
-    </Routes>
+      {/* Dashboard Layout */}
+      <Route path="/" element={<DashboardLayout />}>
+          <Route  path="/dashboard" index element={<DashboardView />} />
+          <Route path="/productTable" element={<ProductTable />} />
+          <Route path="/vendorTable" element={<Vendor_Table />} />
+          <Route path="/blogTable" element={<BlogTable />} />
+        </Route>
+      </Routes>
     </BrowserRouter>
     // <Navigation/>
   )

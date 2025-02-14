@@ -168,11 +168,11 @@ const data = [
       <p>Total customers this month</p>
       <h1>92,556</h1>
       <p className="increase">1.35% ↑ More than last month</p>
-      <ResponsiveContainer width={260} height={70}>
+      <ResponsiveContainer width={340} height={120}>
         <BarChart data={customersData}>
           <Bar dataKey="value" fill="purple" />
         </BarChart>
-      </ResponsiveContainer>
+      </ResponsiveContainer> 
     </div>
 
     {/* Products Card */}
@@ -181,7 +181,7 @@ const data = [
       <p >Total conversion this month</p>
       <h1>53,812</h1>
       <p className="decrease">0.17% ↓ Less than last month</p>
-      <ResponsiveContainer width={260} height={80}>
+      <ResponsiveContainer width={340} height={120}>
       <AreaChart data={conversionData}className='area-graph'>
       <defs>
         <linearGradient id="colorWave" x1="0" y1="0" x2="0" y2="1">
@@ -205,7 +205,7 @@ const data = [
       <p>Total purchases this month</p>
       <h1>40,008</h1>
       <p className="increase">0.06% ↑ Less than last month</p>
-      <ResponsiveContainer width={260} height={80}>
+      <ResponsiveContainer width={340} height={120}>
         <AreaChart data={revenueData}>
           <Area dataKey="value" stroke="red" fill="pink" />
         </AreaChart>

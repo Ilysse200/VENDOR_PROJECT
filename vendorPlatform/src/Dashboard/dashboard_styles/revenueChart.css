@@ -11,12 +11,13 @@
     /* border: 1px solid #ccc;; */
 }
 .chart-container{
-    /* position: absolute; */
+    position: absolute;
+    top:46rem;
     width: 32rem;
     height: 36vh;
     border: 1px solid #ccc;
     background-color: #FBFAFB;
-    margin-left: 1rem;
+    margin-left: 0.4rem;
     margin-right: 1rem;
     padding-left: 0.2rem;
     margin-bottom: 2rem;
