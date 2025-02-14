@@ -19,7 +19,7 @@
 .dashboard-menu{
     /* padding-left: 0.8rem; */
     width: 14rem;
-    height: 13vh;
+    height: 160vh;
     background-color: #D5D7D8;
     list-style-type: none;
 }
@@ -43,7 +43,7 @@
 .sidebar-list{
     width:14rem;
     height: 160vh;
-    background-color: #D5D7D8;
+    /* background-color: #D5D7D8; */
 }
 
 .sidebar-list li{

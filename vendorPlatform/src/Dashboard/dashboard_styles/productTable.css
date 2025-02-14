@@ -1,4 +1,6 @@
 .product-Table{
+    position: absolute;
+    top:5rem;
     width: 68rem;
     height: 10vh;
     margin-left: 20rem;
