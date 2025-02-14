@@ -30,7 +30,7 @@ function Sidebar() {
               </Link>
               <Link to='/vendorTable' className='link-path'><li>Vendors</li></Link>
               <Link to='/blogTable' className='link-path'><li>Blog</li></Link>
-              <Link to='/contactTable' className='link-path'><li>Contact</li></Link>
+              <Link to='/contactTable'className='link-path'><li>Contact</li></Link>
             </ul>
         </div>
         </div>

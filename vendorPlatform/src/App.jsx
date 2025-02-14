@@ -21,6 +21,7 @@ import DashboardLayout from './Dashboard/dashboardLayout';
 import ProductTable from './Dashboard/ProductTable';
 import Vendor_Table from './Dashboard/Vendor_Table';
 import BlogTable from './Dashboard/BlogTable';
+import ContactTable from './Dashboard/ContactTable';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -50,6 +51,7 @@ function App() {
           <Route path="/productTable" element={<ProductTable />} />
           <Route path="/vendorTable" element={<Vendor_Table />} />
           <Route path="/blogTable" element={<BlogTable />} />
+          <Route path="/contactTable" element={<ContactTable />} />
         </Route>
       </Routes>
     </BrowserRouter>

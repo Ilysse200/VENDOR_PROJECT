@@ -1,7 +1,7 @@
 .product-Table{
-    width: 45rem;
+    width: 68rem;
     height: 10vh;
-    margin-left: 17rem;
+    margin-left: 20rem;
     /* padding-bottom: 2rem; */
 }
 .table-row{
@@ -11,12 +11,13 @@
     
 }
 .product-headers{
-    width: 3rem;
+    width: 6rem;
     height: 4rem;
 }
 .product-values{
     width: 2rem;
     height: 2rem;
+    text-align: center;
 }
 .product-pic{
     display: flex;
