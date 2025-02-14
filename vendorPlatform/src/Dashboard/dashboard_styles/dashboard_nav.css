@@ -1,6 +1,7 @@
 .navigation-container{
     position: fixed;
-    margin-left: 10.7rem;
+    margin-left: 14rem;
+    z-index: 1000;
 }
 
 .nav-bar{

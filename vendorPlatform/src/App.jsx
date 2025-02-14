@@ -30,7 +30,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Layout/>}>
-      <Route path='/page' index element={<Page/>}/>
+      <Route path='/' index element={<Content/>}/>
       <Route path='/content'  element={<Content/>}/>
       <Route path='/cards'  element={<Cards/>}/>
       <Route path='/vendor'  element={<Vendor/>}/>
@@ -47,7 +47,8 @@ function App() {
       </Route>
       {/* Dashboard Layout */}
       <Route path='/' element={<DashboardLayout />}>
-          <Route  path='/dashboard' index element={<DashboardView />} />
+          <Route  path='/' index element={<DashboardView />} />
+          <Route  path='/viewDashboard'  element={<DashboardView />} />
           <Route path='/productTable' element={<ProductTable />} />
           <Route path='/vendorTable' element={<Vendor_Table />} />
           <Route path='/blogTable' element={<BlogTable />} />

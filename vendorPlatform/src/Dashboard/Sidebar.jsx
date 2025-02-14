@@ -26,9 +26,10 @@ function Sidebar() {
             
             
             <ul className='sidebar-list'>
-              <Link to='/dashboard' className='link-path'>
+              {/* <Link to='/dashboard'>
               <li>Dashboard Overview</li>
-              </Link>
+              </Link> */}
+              <Link to='/viewDashboard'  className='link-path'><li>Dashboard Overview</li></Link>
               <Link to='/productTable'className='link-path'>
               <li>Products</li>
               </Link>

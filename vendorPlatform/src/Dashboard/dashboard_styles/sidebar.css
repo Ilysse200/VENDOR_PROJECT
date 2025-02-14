@@ -23,6 +23,7 @@
     height: 160vh;
     background-color: #D5D7D8;
     list-style-type: none;
+    z-index: 1000;
 }
 .dashboard-menu :hover{
     cursor: pointer;

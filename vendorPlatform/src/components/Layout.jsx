@@ -12,11 +12,7 @@ export default function Layout
     <div>
         <Navbar/>
         <Outlet/>
-        <Footer/>
-        {/* <Navbar/>
-        <Page/>
-        <Content/> */}
-        
+        <Footer/> 
 
     </div>
   )

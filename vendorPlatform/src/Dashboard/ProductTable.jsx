@@ -7,7 +7,7 @@ function ProductTable() {
   return (
     <div className='table-container'>
       <h1 className='product-title'>Product List</h1>
-        <table className='product-Table' table border={1}>
+        <table className='product-Table' >
           <thead>
             <tr className='table-row'>
               <th className='product-headers'>ID</th>
@@ -18,7 +18,7 @@ function ProductTable() {
           </thead>
           <tbody className='table-values'>
             {products.map((product)=>(
-            <tr>
+            <tr className=''>
               <td className='product-values'>{product.id}</td>
               <td className='product-values'>{product.name}</td>
               <td className='product-value'><img src={product.picture} className='product-pic'/></td>
