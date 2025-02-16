@@ -10,7 +10,7 @@ function Vendor_Table() {
                 
                 <tr className='table-row'>
                     <th className='product-headers'>Vendor Name</th>
-                    <th className='product-headers'>Vendor Profile</th>
+                    <th className='product-headers'>Products offered</th>
                     <th className='product-headers'>Vendor Location</th>
                     <th className='product-headers'>Vendor Rating</th>
                     <th className='product-headers'>Actions</th>
@@ -21,7 +21,7 @@ function Vendor_Table() {
                 {stores.map((vendor) =>(
                 <tr>
                     <td className='product-values'>{vendor.name}</td>
-                    <td className='product-values'><img src={vendor.profilePic} alt="vendor Profile Pic" className='product-pic' /></td>
+                    <td className='vendor-value'><img src={vendor.profilePic} alt="vendor Profile Pic" className='product-pic' /></td>
                     <td className='product-values'>{vendor.location}</td>
                     <td className='product-values'>{vendor.rating}</td>
                     <td className='product-values'>{vendor.action_icon}</td>

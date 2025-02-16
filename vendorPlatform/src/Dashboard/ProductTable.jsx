@@ -20,7 +20,7 @@ function ProductTable() {
           </thead>
           <tbody className='table-values'>
             {products.map((product)=>(
-            <tr className=''>
+            <tr className='values-product'>
               <td className='product-values'>{product.id}</td>
               <td className='product-values'>{product.name}</td>
               <td className='product-value'><img src={product.picture} className='product-pic'/></td>
