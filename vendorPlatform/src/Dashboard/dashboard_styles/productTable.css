@@ -64,6 +64,14 @@
     height: 3rem;
     text-align: left;
 }
+.contact-style{
+    text-align: center;
+}
+.action-icons{
+    width: 5rem;
+    height: 6vh;
+    text-align: center;
+}
 .product-pic{
     display: flex;
     width: 90px;

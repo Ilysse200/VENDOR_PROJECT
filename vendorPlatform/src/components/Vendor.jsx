@@ -20,7 +20,7 @@ export const stores = [
     location: "Central Park, New York, United States (US)",
     rating: 4.5,
     profilePic: glasses,
-    action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
+    action_icon: [<CiEdit color='#007AFF'/>, <LuDelete color='red'/>]
   },
   {
     name: "Jessica's Store",
@@ -28,7 +28,7 @@ export const stores = [
     location: "Central Park, New York, United States (US)",
     rating: 4.0,
     profilePic: green,
-    action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
+    action_icon: [<CiEdit color='#007AFF'/>, <LuDelete color='red'/>]
   },
   {
     name: "Santa Monica's Store",
@@ -36,7 +36,7 @@ export const stores = [
     location: "Central Park, New York, United States (US)",
     rating: 5.0,
     profilePic: outfitBlack,
-    action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
+    action_icon: [<CiEdit color='#007AFF'/>, <LuDelete color='red'/>]
   },
   {
     name: "Digital Good's Store",
@@ -44,7 +44,7 @@ export const stores = [
     location: "Central Park, New York, United States (US)",
     rating: 4.0,
     profilePic: equipment,
-    action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
+    action_icon: [<CiEdit color='#007AFF'/>, <LuDelete color='red'/>]
   },
   {
     name: "The Glass Store",
@@ -52,7 +52,7 @@ export const stores = [
     location: "Central Park, New York, United States (US)",
     rating: 4.7,
     profilePic: person,
-    action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
+    action_icon: [<CiEdit color='#007AFF'/>, <LuDelete color='red'/>]
   },
   {
     name: "Josh Doe's Store",
@@ -60,7 +60,7 @@ export const stores = [
     location: "Central Park, New York, United States (US)",
     rating: 4.8,
     profilePic:blankPerson,
-    action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
+    action_icon: [<CiEdit color='#007AFF'/>, <LuDelete color='red'/>]
   }
 ];
 

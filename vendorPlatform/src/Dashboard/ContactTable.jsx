@@ -11,14 +11,14 @@ const Contact = [
         lastName: 'Doe',
         email: 'john@example.com',
         phone: '123-456-7890',
-        action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
+        action_icon: [<CiEdit color='#007AFF'/>, <LuDelete color='red'/>]
     },
     {
         firstName: 'John',
         lastName: 'Doe',
         email: 'john@example.com',
         phone: '123-456-7890',
-        action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
+        action_icon: [<CiEdit color='#007AFF'/>, <LuDelete color='red'/>]
 
     },
     {
@@ -26,7 +26,7 @@ const Contact = [
         lastName: 'Doe',
         email: 'john@example.com',
         phone: '123-456-7890',
-        action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
+        action_icon: [<CiEdit color='#007AFF'/>, <LuDelete color='red'/>]
     },
 
 ]

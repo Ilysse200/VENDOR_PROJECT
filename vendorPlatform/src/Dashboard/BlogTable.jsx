@@ -22,7 +22,7 @@ function BlogTable() {
                     <td className='product-values'>{blog.date}</td>
                     <td className='contact-styles'>{blog.title}</td>
                     <td className='contact-styles'>{blog.description}</td>
-                    <td className='contact-styles'>{blog.action_icon}</td>
+                    <td className='contact-style'>{blog.action_icon}</td>
 
                 </tr>
                 ))}

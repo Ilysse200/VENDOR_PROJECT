@@ -25,7 +25,7 @@ function ProductTable() {
               <td className='product-values'>{product.name}</td>
               <td className='product-value'><img src={product.picture} className='product-pic'/></td>
               <td className='product-values'>{product.price}</td>
-              <td className='product-values'>{product.action_icon}</td>
+              <td className='action-icons'>{product.action_icon}</td>
             </tr>
             ))}
           </tbody>
