@@ -7,6 +7,12 @@ import glasses from '../assets/glasses.webp';
 import equipment from '../assets/blackEquipment.webp';
 import person from '../assets/blueShirt.webp';
 import blankPerson from '../assets/blankProfile.png'
+
+//import action icons for edit and delete used in tables
+import { CiEdit } from "react-icons/ci"; //edit table icon
+
+import { LuDelete } from "react-icons/lu"; //delete table icon
+
 export const stores = [
   {
     name: "John Doe's Store",
@@ -14,6 +20,7 @@ export const stores = [
     location: "Central Park, New York, United States (US)",
     rating: 4.5,
     profilePic: glasses,
+    action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
   },
   {
     name: "Jessica's Store",
@@ -21,6 +28,7 @@ export const stores = [
     location: "Central Park, New York, United States (US)",
     rating: 4.0,
     profilePic: green,
+    action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
   },
   {
     name: "Santa Monica's Store",
@@ -28,6 +36,7 @@ export const stores = [
     location: "Central Park, New York, United States (US)",
     rating: 5.0,
     profilePic: outfitBlack,
+    action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
   },
   {
     name: "Digital Good's Store",
@@ -35,6 +44,7 @@ export const stores = [
     location: "Central Park, New York, United States (US)",
     rating: 4.0,
     profilePic: equipment,
+    action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
   },
   {
     name: "The Glass Store",
@@ -42,6 +52,7 @@ export const stores = [
     location: "Central Park, New York, United States (US)",
     rating: 4.7,
     profilePic: person,
+    action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
   },
   {
     name: "Josh Doe's Store",
@@ -49,6 +60,7 @@ export const stores = [
     location: "Central Park, New York, United States (US)",
     rating: 4.8,
     profilePic:blankPerson,
+    action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
   }
 ];
 

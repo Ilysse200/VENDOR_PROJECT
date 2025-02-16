@@ -6,6 +6,7 @@ function ProductTable() {
 
   return (
     <div className='table-container'>
+      <button type='button' className='product-button'>Add product</button>
       <h1 className='product-title'>Product List</h1>
         <table className='product-Table' >
           <thead>
@@ -14,6 +15,7 @@ function ProductTable() {
               <th className='product-headers'>Name</th>
               <th className='product-headers'>Picture</th>
               <th className='product-headers'>Price</th>
+              <th className='product-headers'>Actions</th>
             </tr>
           </thead>
           <tbody className='table-values'>
@@ -23,6 +25,7 @@ function ProductTable() {
               <td className='product-values'>{product.name}</td>
               <td className='product-value'><img src={product.picture} className='product-pic'/></td>
               <td className='product-values'>{product.price}</td>
+              <td className='product-values'>{product.action_icon}</td>
             </tr>
             ))}
           </tbody>

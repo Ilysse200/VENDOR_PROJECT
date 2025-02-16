@@ -12,6 +12,7 @@ function BlogTable() {
                     <th className='product-headers'>Date</th>
                     <th className='product-headers'>Title</th>
                     <th className='product-headers'>Description</th>
+                    <th className='product-headers'>Actions</th>
                 </tr>
             </thead>
             <tbody>
@@ -21,6 +22,7 @@ function BlogTable() {
                     <td className='product-values'>{blog.date}</td>
                     <td className='contact-styles'>{blog.title}</td>
                     <td className='contact-styles'>{blog.description}</td>
+                    <td className='contact-styles'>{blog.action_icon}</td>
 
                 </tr>
                 ))}

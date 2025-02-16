@@ -13,6 +13,7 @@ function Vendor_Table() {
                     <th className='product-headers'>Vendor Profile</th>
                     <th className='product-headers'>Vendor Location</th>
                     <th className='product-headers'>Vendor Rating</th>
+                    <th className='product-headers'>Actions</th>
                 </tr>
             </thead>
             <tbody>
@@ -23,6 +24,7 @@ function Vendor_Table() {
                     <td className='product-values'><img src={vendor.profilePic} alt="vendor Profile Pic" className='product-pic' /></td>
                     <td className='product-values'>{vendor.location}</td>
                     <td className='product-values'>{vendor.rating}</td>
+                    <td className='product-values'>{vendor.action_icon}</td>
                 </tr>
                 ))}
             </tbody>

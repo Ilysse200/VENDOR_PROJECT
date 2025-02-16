@@ -1,6 +1,10 @@
 import React from 'react';
 import '../styles/blog.css'; // Ensure the CSS file exists
 
+//import action icons for edit and delete used in tables
+import { CiEdit } from "react-icons/ci"; //edit table icon
+
+import { LuDelete } from "react-icons/lu"; //delete table icon
 
 //Images imports
 import blog1 from '../assets/blog1.webp'
@@ -16,42 +20,48 @@ export const blogPosts = [
         date: "July 18, 2021",
         title: "Sed magna dui, dignissim id felis vitae, consectetur",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta elit [...]",
-        image: blog1
+        image: blog1,
+        action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
     },
     {
         id: 2,
         date: "July 18, 2021",
         title: "Fusce suscipit risus tempor, blandit urna at, laoreet ex",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta elit [...]",
-        image: blog2
+        image: blog2,
+        action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
     },
     {
         id: 3,
         date: "July 18, 2021",
         title: "Pellentesque varius, diam vitae mattis luctus, mi mi cursus",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta elit [...]",
-        image: blog3
+        image: blog3,
+        action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
     },
     {
         id: 4,
         date: "July 18, 2021",
         title: "Nam pharetra fringilla justo, et commodo lacus molestie ut",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta elit [...]",
-        image: blog4
+        image: blog4,
+        action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
     },
     {
         id: 5,
         date: "July 18, 2021",
         title: "Fusce vel tellus vulputate, dignissim turpis sit amet, aliquet mi",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta elit [...]",
-        image: blog5
+        image: blog5,
+        action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
     },
     {
         id: 6,
         date: "July 18, 2021",
         title: "Duis lacinia convallis odio, quis efficitur dolor pulvinar nec",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta elit [...]",
-        image: blog6
+        image: blog6,
+        action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>]
     }
 ];
 

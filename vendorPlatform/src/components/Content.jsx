@@ -3,6 +3,11 @@ import '../styles/content.css'
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 import { Link, useNavigate } from 'react-router-dom';
 
+//import action icons for edit and delete used in tables
+import { CiEdit } from "react-icons/ci"; //edit table icon
+
+import { LuDelete } from "react-icons/lu"; //delete table icon
+
 // import arrow icon
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
@@ -88,6 +93,7 @@ export const products =[
         picture:image1,
         price:"$22.00 - $55.00",
         details:"Stay hydrated in style with our sleek, spill-proof bottle! Designed for durability and freshness, it keeps your drinks hot or cold for hours. Perfect for travel, work, or the gym!",
+        action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>],
         rating: [<FaStar color='orange'/>, <FaStar color='orange'/>, <FaStar color='orange'/>, <FaStar color='grey'/>,, <FaStar color='grey'/>
     ]
 
@@ -98,6 +104,7 @@ export const products =[
         picture:image2,
         price:"$49.00 – $69.00",
         details:"Control your home, play music, get weather updates, and much more – all hands-free! Just say “Alexa”, and let the magic happen! ",
+        action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>],
         rating: [<FaStar color='orange'/>, <FaStar color='orange'/>, <FaStar color='orange'/>, , <FaStar color='orange'/>,, <FaStar color='orange'/>
     ]
 
@@ -108,6 +115,7 @@ export const products =[
         picture:image3,
         price:"$22.00 - $55.00",
         details:"Experience premium sound with our high-fidelity headphones! Crystal-clear audio, deep bass, and all-day comfort—perfect for music, gaming, and calls.",
+        action_icon: [<CiEdit color='blue'/>, <LuDelete color='red'/>],
         rating: [<FaStar color='orange'/>, <FaStar color='orange'/>, <FaStar color='orange'/>, , <FaStar color='orange'/>, <FaStar color='grey'/>
     ]
 

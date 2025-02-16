@@ -7,7 +7,7 @@
 .product-Table{
     position: absolute;
     top:15rem;
-    width: 60rem;
+    width: 78rem;
     height: 10vh;
     margin-left: 20rem;
     background-color: white;
@@ -23,6 +23,19 @@
     margin-left: 41rem;
     /* color: black; */
 }
+.product-button{
+    position: absolute;
+    margin-left: 80rem;
+    top: 10rem;
+    width: 18rem;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: #007AFF; /* Add color to see it */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 .table-row{
     /* border: 1px solid #232222; */
     /* width: 40%;
@@ -31,9 +44,6 @@
     padding: 10px;
     background-color: #007AFF;
 
-}
-.table-values{
-    
 }
 .product-headers{
     /* border-radius: 1.2rem; */
@@ -44,7 +54,7 @@
 }
 .product-values{
     width: 2rem;
-    height: 2rem;
+    height:0.3rem;
     text-align: center;
     /* border: 1px solid #232222; */
     /* box-shadow: 10px 10px 10px #cacdd2; */
@@ -61,7 +71,4 @@
     margin-left: 8rem;
     align-items: center;
     /* margin-right: 0.4rem; */
-}
-.product-value{
-    
 }
