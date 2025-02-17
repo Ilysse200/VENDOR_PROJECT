@@ -6,7 +6,7 @@ import { RxAvatar } from "react-icons/rx";
 import { FiMenu } from "react-icons/fi";
 
 import { useTheme } from "./ThemeContext"; // Import the theme context
-import { Moon, Sun } from "lucide-react"; // Using Lucide icons
+import { Sun, Moon } from "lucide-react"; // Using Lucide icons
 function DashboardNavbar() {
 
   const { theme, toggleTheme } = useTheme(); // Access theme and toggle function
@@ -22,7 +22,7 @@ function DashboardNavbar() {
           <div className='notification-bar'><IoIosNotificationsOutline className='notification-icon' /></div>
           <div className='notification-bar'><RxAvatar className='notification-icon' /></div>
           <button onClick={toggleTheme} className="theme-toggle">
-        {theme === "light" ? <Moon size={22} /> : <Sun size={22} />}
+        {theme === "light" ? <Sun size={22} /> : <Moon size={22} />}
       </button>
           
           </div>
