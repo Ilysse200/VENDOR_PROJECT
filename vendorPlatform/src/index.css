@@ -29,8 +29,8 @@ body {
 }
 
 /* Component-specific */
-/* .sidebar {
-  padding: 20px;
-  background-color: var(--background-color);
-  color: var(--text-color);
-} */
+.dashboard-menu {
+  /* padding: 20px; */
+  background-color: var(--background-color)!important;
+  color: var(--text-color)!important;
+}
