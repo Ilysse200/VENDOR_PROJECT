@@ -22,11 +22,13 @@ import ProductTable from './Dashboard/ProductTable';
 import Vendor_Table from './Dashboard/Vendor_Table';
 import BlogTable from './Dashboard/BlogTable';
 import ContactTable from './Dashboard/ContactTable';
+import { ThemeProvider } from "./Dashboard/ThemeContext";
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
+    <ThemeProvider>
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Layout/>}>
@@ -56,6 +58,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+    </ThemeProvider>
     // <Navigation/>
   )
 }
