@@ -115,6 +115,9 @@
     top:40rem;
     margin-left: 15rem;
 }
+.chart-title:hover{
+    cursor: pointer;
+}
 .piechart-title{
     position: absolute;
     padding-top: 2rem;

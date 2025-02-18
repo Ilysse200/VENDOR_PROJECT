@@ -13,3 +13,7 @@
     top:2rem;
     margin-left: 0.2rem; 
 } */
+
+.piechart-title:hover{
+    cursor: pointer;
+}
