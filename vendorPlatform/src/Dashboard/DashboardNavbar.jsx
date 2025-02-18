@@ -22,7 +22,7 @@ function DashboardNavbar() {
           <div className='notification-bar'><IoIosNotificationsOutline className='notification-icon' /></div>
           <div className='notification-bar'><RxAvatar className='notification-icon' /></div>
           <button onClick={toggleTheme} className="theme-toggle">
-        {theme === "light" ? <Sun size={22} /> : <Moon size={22} />}
+        {theme === "light" ? <Sun size={18} className='darkmode-icon'/> : <Moon size={18} className='darkmode-icon'/>}
       </button>
           
           </div>

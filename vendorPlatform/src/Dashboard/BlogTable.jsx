@@ -21,7 +21,7 @@ function BlogTable() {
                     <td className='product-value'><img src={blog.image} className='product-pic'/></td>
                     <td className='product-values'>{blog.date}</td>
                     <td className='contact-styles'>{blog.title}</td>
-                    <td className='contact-styles'>{blog.description}</td>
+                    <td className='contact-description'>{blog.description}</td>
                     <td className='contact-style'>{blog.action_icon}</td>
 
                 </tr>
