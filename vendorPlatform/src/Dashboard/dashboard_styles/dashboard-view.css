@@ -53,9 +53,6 @@
 .color-chooser3{
     background-color: #242434;
 }
-.item-title{
-    /* padding-bottom: 1rem; */
-}
 .sales-icon{
     width: 10rem;
     height: 2vh;
@@ -77,18 +74,7 @@
     top:-9rem;
     /* margin-right: -60rem; */
 }
-/* .increase{
-    position: absolute;
-    top: 26rem;
-    padding-left: 10rem;
-    font-size: 12px;
-}
-.decrease{
-    position: absolute;
-    top: 26rem;
-    padding-left: 9.9rem;
-    font-size: 12px;
-} */
+
 .dashboard-card{
     /* position: relative; */
     margin-top: 12rem;
@@ -105,10 +91,6 @@
 .dashboard-card h1{
     font-size: 20px;
 }
-/* .area-graph{
-    width:12rem;
-    height: 10vh;
-} */
 .chart-title{
     padding-top: 2rem;
     position: absolute;
